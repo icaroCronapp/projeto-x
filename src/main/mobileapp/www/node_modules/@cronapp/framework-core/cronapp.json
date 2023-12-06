@@ -1,0 +1,14 @@
+{
+  "postUpdate": {
+    "angularJs": {
+      "includes": [
+        {
+          "file": "index.html",
+          "script": "node_modules/@cronapp/framework-core/cronapp.framework.js",
+          "type": "script",
+          "layers": ["web"]
+        }
+      ]
+    }
+  }
+}

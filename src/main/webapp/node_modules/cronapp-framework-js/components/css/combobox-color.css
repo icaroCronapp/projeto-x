@@ -1,0 +1,748 @@
+/* white */
+.combobox-white .k-button:before {
+    background: var(--white, #ffffff);
+}
+
+.combobox-white .k-multiselect-wrap .k-button .k-select .k-icon {
+    color: var(--black, #000000);
+}
+
+.combobox-white .k-multiselect .k-button.k-state-hover,
+.combobox-white .k-multiselect .k-button {
+    border-color: var(--white, #ffffff);
+    background: var(--white, #ffffff);
+    color: var(--black, #000000);
+}
+
+.combobox-white .k-multiselect-wrap .k-button.k-state-hover .k-select,
+.combobox-white .k-multiselect-wrap .k-button:hover {
+    background: var(--white, #ffffff);
+    color: var(--black, #000000);
+}
+
+.combobox-white .k-multiselect .k-button:active {
+    color: var(--black, #000000);
+    box-shadow: inset 0 0 10px 3px var(--white, #ffffff);
+}
+
+/* gray */
+.combobox-gray .k-button:before {
+    background: var(--gray, #333333);
+}
+
+.combobox-gray .k-multiselect .k-button.k-state-hover,
+.combobox-gray .k-multiselect .k-button {
+    border-color: var(--gray, #333333);
+    background: var(--gray, #333333);
+    color: var(--white, #ffffff);
+}
+
+.combobox-gray .k-multiselect-wrap .k-button.k-state-hover .k-select,
+.combobox-gray .k-multiselect-wrap .k-button:hover {
+    background: var(--gray, #333333);
+    color: var(--white, #ffffff);
+}
+
+.combobox-gray .k-multiselect .k-button:active {
+    color: var(--white, #ffffff);
+    box-shadow: inset 0 0 10px 3px var(--gray, #333333);
+}
+
+/* black */
+.combobox-black .k-button:before {
+    background: var(--black, #000000);
+}
+
+.combobox-black .k-multiselect .k-button.k-state-hover,
+.combobox-black .k-multiselect .k-button {
+    border-color: var(--black, #000000);
+    background: var(--black, #000000);
+    color: var(--white, #ffffff);
+}
+
+.combobox-black .k-multiselect-wrap .k-button.k-state-hover .k-select,
+.combobox-black .k-multiselect-wrap .k-button:hover {
+    background: var(--black, #000000);
+    color: var(--white, #ffffff);
+}
+
+.combobox-black .k-multiselect .k-button:active {
+    color: var(--white, #ffffff);
+    box-shadow: inset 0 0 10px 3px var(--black, #000000);
+}
+
+/* blue */
+.combobox-blue .k-button:before {
+    background: var(--blue, #0247FE);
+}
+
+.combobox-blue .k-multiselect .k-button.k-state-hover,
+.combobox-blue .k-multiselect .k-button {
+    border-color: var(--blue, #0247FE);
+    background: var(--blue, #0247FE);
+    color: var(--white, #ffffff);
+}
+
+.combobox-blue .k-multiselect-wrap .k-button.k-state-hover .k-select,
+.combobox-blue .k-multiselect-wrap .k-button:hover {
+    background: var(--blue, #0247FE);
+    color: var(--white, #ffffff);
+}
+
+.combobox-blue .k-multiselect .k-button:active {
+    color: var(--white, #ffffff);
+    box-shadow: inset 0 0 10px 3px var(--blue, #0247FE);
+}
+
+/* light-blue */
+.combobox-light-blue .k-button:before {
+    background: var(--light-blue, #85A5FF);
+}
+
+.combobox-light-blue .k-multiselect .k-button.k-state-hover,
+.combobox-light-blue .k-multiselect .k-button {
+    border-color: var(--light-blue, #85A5FF);
+    background: var(--light-blue, #85A5FF);
+    color: var(--white, #ffffff);
+}
+
+.combobox-light-blue .k-multiselect-wrap .k-button.k-state-hover .k-select,
+.combobox-light-blue .k-multiselect-wrap .k-button:hover {
+    background: var(--light-blue, #85A5FF);
+    color: var(--white, #ffffff);
+}
+
+.combobox-light-blue .k-multiselect .k-button:active {
+    color: var(--white, #ffffff);
+    box-shadow: inset 0 0 10px 3px var(--light-blue, #85A5FF);
+}
+
+/* dark-blue */
+.combobox-dark-blue .k-button:before {
+    background: var(--dark-blue, #00217A);
+}
+
+.combobox-dark-blue .k-multiselect .k-button.k-state-hover,
+.combobox-dark-blue .k-multiselect .k-button {
+    border-color: var(--dark-blue, #00217A);
+    background: var(--dark-blue, #00217A);
+    color: var(--white, #ffffff);
+}
+
+.combobox-dark-blue .k-multiselect-wrap .k-button.k-state-hover .k-select,
+.combobox-dark-blue .k-multiselect-wrap .k-button:hover {
+    background: var(--dark-blue, #00217A);
+    color: var(--white, #ffffff);
+}
+
+.combobox-dark-blue .k-multiselect .k-button:active {
+    color: var(--white, #ffffff);
+    box-shadow: inset 0 0 10px 3px var(--dark-blue, #00217A);
+}
+
+/* purple */
+.combobox-purple .k-button:before {
+    background: var(--purple, #3D01A4);
+}
+
+.combobox-purple .k-multiselect .k-button.k-state-hover,
+.combobox-purple .k-multiselect .k-button {
+    border-color: var(--purple, #3D01A4);
+    background: var(--purple, #3D01A4);
+    color: var(--white, #ffffff);
+}
+
+.combobox-purple .k-multiselect-wrap .k-button.k-state-hover .k-select,
+.combobox-purple .k-multiselect-wrap .k-button:hover {
+    background: var(--purple, #3D01A4);
+    color: var(--white, #ffffff);
+}
+
+.combobox-purple .k-multiselect .k-button:active {
+    color: var(--white, #ffffff);
+    box-shadow: inset 0 0 10px 3px var(--purple, #3D01A4);
+}
+
+/* light-purple */
+.combobox-light-purple .k-button:before {
+    background: var(--light-purple, #B285FF);
+}
+.combobox-light-purple .k-multiselect .k-button.k-state-hover,
+.combobox-light-purple .k-multiselect .k-button {
+    border-color: var(--light-purple, #B285FF);
+    background: var(--light-purple, #B285FF);
+    color: var(--white, #ffffff);
+}
+
+.combobox-light-purple .k-multiselect-wrap .k-button.k-state-hover .k-select,
+.combobox-light-purple .k-multiselect-wrap .k-button:hover {
+    background: var(--light-purple, #B285FF);
+    color: var(--white, #ffffff);
+}
+
+.combobox-light-purple .k-multiselect .k-button:active {
+    color: var(--white, #ffffff);
+    box-shadow: inset 0 0 10px 3px var(--light-purple, #B285FF);
+}
+
+/* dark-purple */
+.combobox-dark-purple .k-button:before {
+    background: var(--dark-purple, #2D007A);
+}
+
+.combobox-dark-purple .k-multiselect .k-button.k-state-hover,
+.combobox-dark-purple .k-multiselect .k-button {
+    border-color: var(--dark-purple, #2D007A);
+    background: var(--dark-purple, #2D007A);
+    color: var(--white, #ffffff);
+}
+
+.combobox-dark-purple .k-multiselect-wrap .k-button.k-state-hover .k-select,
+.combobox-dark-purple .k-multiselect-wrap .k-button:hover {
+    background: var(--dark-purple, #2D007A);
+    color: var(--white, #ffffff);
+}
+
+.combobox-dark-purple .k-multiselect .k-button:active {
+    color: var(--white, #ffffff);
+    box-shadow: inset 0 0 10px 3px var(--dark-purple, #2D007A);
+}
+
+/* red */
+.combobox-red .k-button:before {
+    background: var(--red, #FE2712);
+}
+
+.combobox-red .k-multiselect .k-button.k-state-hover,
+.combobox-red .k-multiselect .k-button {
+    border-color: var(--red, #FE2712);
+    background: var(--red, #FE2712);
+    color: var(--white, #ffffff);
+}
+
+.combobox-red .k-multiselect-wrap .k-button.k-state-hover .k-select,
+.combobox-red .k-multiselect-wrap .k-button:hover {
+    background: var(--red, #FE2712);
+    color: var(--white, #ffffff);
+}
+
+.combobox-red .k-multiselect .k-button:active {
+    color: var(--white, #ffffff);
+    box-shadow: inset 0 0 10px 3px var(--red, #FE2712);
+}
+
+/* light-red */
+.combobox-light-red .k-button:before {
+    background: var(--light-red, #FE8F84);
+}
+
+.combobox-light-red .k-multiselect .k-button.k-state-hover,
+.combobox-light-red .k-multiselect .k-button {
+    border-color: var(--light-red, #FE8F84);
+    background: var(--light-red, #FE8F84);
+    color: var(--white, #ffffff);
+}
+
+.combobox-light-red .k-multiselect-wrap .k-button.k-state-hover .k-select,
+.combobox-light-red .k-multiselect-wrap .k-button:hover {
+    background: var(--light-red, #FE8F84);
+    color: var(--white, #ffffff);
+}
+
+.combobox-light-red .k-multiselect .k-button:active {
+    color: var(--white, #ffffff);
+    box-shadow: inset 0 0 10px 3px var(--light-red, #FE8F84);
+}
+
+/* dark-red */
+.combobox-dark-red .k-button:before {
+    background: var(--dark-red, #7A0B00);
+}
+
+.combobox-dark-red .k-multiselect .k-button.k-state-hover,
+.combobox-dark-red .k-multiselect .k-button {
+    border-color: var(--dark-red, #7A0B00);
+    background: var(--dark-red, #7A0B00);
+    color: var(--white, #ffffff);
+}
+
+.combobox-dark-red .k-multiselect-wrap .k-button.k-state-hover .k-select,
+.combobox-dark-red .k-multiselect-wrap .k-button:hover {
+    background: var(--dark-red, #7A0B00);
+    color: var(--white, #ffffff);
+}
+
+.combobox-dark-red .k-multiselect .k-button:active {
+    color: var(--white, #ffffff);
+    box-shadow: inset 0 0 10px 3px var(--dark-red, #7A0B00);
+}
+
+/* orange */
+.combobox-orange .k-button:before {
+    background: var(--orange, #FB9B02);
+}
+
+.combobox-orange .k-multiselect .k-button.k-state-hover,
+.combobox-orange .k-multiselect .k-button {
+    border-color: var(--orange, #FB9B02);
+    background: var(--orange, #FB9B02);
+    color: var(--white, #ffffff);
+}
+
+.combobox-orange .k-multiselect-wrap .k-button.k-state-hover .k-select,
+.combobox-orange .k-multiselect-wrap .k-button:hover {
+    background: var(--orange, #FB9B02);
+    color: var(--white, #ffffff);
+}
+
+.combobox-orange .k-multiselect .k-button:active {
+    color: var(--white, #ffffff);
+    box-shadow: inset 0 0 10px 3px var(--orange, #FB9B02);
+}
+
+/* light-orange */
+.combobox-light-orange .k-button:before {
+    background: var(--light-orange, #FFD085);
+}
+
+.combobox-light-orange .k-multiselect-wrap .k-button .k-select .k-icon {
+    color: var(--black, #000000);
+}
+
+.combobox-light-orange .k-multiselect .k-button.k-state-hover,
+.combobox-light-orange .k-multiselect .k-button {
+    border-color: var(--light-orange, #FFD085);
+    background: var(--light-orange, #FFD085);
+    color: var(--black, #000000);
+}
+
+.combobox-light-orange .k-multiselect-wrap .k-button.k-state-hover .k-select,
+.combobox-light-orange .k-multiselect-wrap .k-button:hover {
+    background: var(--light-orange, #FFD085);
+    color: var(--black, #000000);
+}
+
+.combobox-light-orange .k-multiselect .k-button:active {
+    color: var(--black, #000000);
+    box-shadow: inset 0 0 10px 3px var(--light-orange, #FFD085);
+}
+
+/* dark-orange */
+.combobox-dark-orange .k-button:before {
+    background: var(--dark-orange, #7A4B00);
+}
+
+.combobox-dark-orange .k-multiselect .k-button.k-state-hover,
+.combobox-dark-orange .k-multiselect .k-button {
+    border-color: var(--dark-orange, #7A4B00);
+    background: var(--dark-orange, #7A4B00);
+    color: var(--white, #ffffff);
+}
+
+.combobox-dark-orange .k-multiselect-wrap .k-button.k-state-hover .k-select,
+.combobox-dark-orange .k-multiselect-wrap .k-button:hover {
+    background: var(--dark-orange, #7A4B00);
+    color: var(--white, #ffffff);
+}
+
+.combobox-dark-orange .k-multiselect .k-button:active {
+    color: var(--white, #ffffff);
+    box-shadow: inset 0 0 10px 3px var(--dark-orange, #7A4B00);
+}
+
+/* yellow */
+.combobox-yellow .k-button:before {
+    background: var(--yellow, #FFFF33);
+}
+
+.combobox-yellow .k-multiselect-wrap .k-button .k-select .k-icon {
+    color: var(--black, #000000);
+}
+
+.combobox-yellow .k-multiselect .k-button.k-state-hover,
+.combobox-yellow .k-multiselect .k-button {
+    border-color: var(--yellow, #FFFF33);
+    background: var(--yellow, #FFFF33);
+    color: var(--black, #000000);
+}
+
+.combobox-yellow .k-multiselect-wrap .k-button.k-state-hover .k-select,
+.combobox-yellow .k-multiselect-wrap .k-button:hover {
+    background: var(--yellow, #FFFF33);
+    color: var(--black, #000000);
+}
+
+.combobox-yellow .k-multiselect .k-button:active {
+    color: var(--black, #000000);
+    box-shadow: inset 0 0 10px 3px var(--yellow, #FFFF33);
+}
+
+/* light-yellow */
+.combobox-light-yellow .k-button:before {
+    background: var(--light-yellow, #FFFF85);
+}
+
+.combobox-light-yellow .k-multiselect-wrap .k-button .k-select .k-icon {
+    color: var(--black, #000000);
+}
+
+.combobox-light-yellow .k-multiselect .k-button.k-state-hover,
+.combobox-light-yellow .k-multiselect .k-button {
+    border-color: var(--light-yellow, #FFFF85);
+    background: var(--light-yellow, #FFFF85);
+    color: var(--black, #000000);
+}
+
+.combobox-light-yellow .k-multiselect-wrap .k-button.k-state-hover .k-select,
+.combobox-light-yellow .k-multiselect-wrap .k-button:hover {
+    background: var(--light-yellow, #FFFF85);
+    color: var(--black, #000000);
+}
+
+.combobox-light-yellow .k-multiselect .k-button:active {
+    color: var(--black, #000000);
+    box-shadow: inset 0 0 10px 3px var(--light-yellow, #FFFF85);
+}
+
+
+/* dark-yellow */
+.combobox-dark-yellow .k-button:before {
+    background: var(--dark-yellow, #7A7A00);
+}
+
+.combobox-dark-yellow .k-multiselect .k-button.k-state-hover,
+.combobox-dark-yellow .k-multiselect .k-button {
+    border-color: var(--dark-yellow, #7A7A00);
+    background: var(--dark-yellow, #7A7A00);
+    color: var(--white, #ffffff);
+}
+
+.combobox-dark-yellow .k-multiselect-wrap .k-button.k-state-hover .k-select,
+.combobox-dark-yellow .k-multiselect-wrap .k-button:hover {
+    background: var(--dark-yellow, #7A7A00);
+    color: var(--white, #ffffff);
+}
+
+.combobox-dark-yellow .k-multiselect .k-button:active {
+    color: var(--white, #ffffff);
+    box-shadow: inset 0 0 10px 3px var(--dark-yellow, #7A7A00);
+}
+
+/* green */
+.combobox-green .k-button:before {
+    background: var(--green, #66B032);
+}
+
+.combobox-green .k-multiselect .k-button.k-state-hover,
+.combobox-green .k-multiselect .k-button {
+    border-color: var(--green, #66B032);
+    background: var(--green, #66B032);
+    color: var(--white, #ffffff);
+}
+
+.combobox-green .k-multiselect-wrap .k-button.k-state-hover .k-select,
+.combobox-green .k-multiselect-wrap .k-button:hover {
+    background: var(--green, #66B032);
+    color: var(--white, #ffffff);
+}
+
+.combobox-green .k-multiselect .k-button:active {
+    color: var(--white, #ffffff);
+    box-shadow: inset 0 0 10px 3px var(--green, #66B032);
+}
+
+/* light green */
+.combobox-light-green .k-button:before {
+    background: var(--light-green, #B7FF85);
+}
+
+.combobox-light-green .k-multiselect-wrap .k-button .k-select .k-icon {
+    color: var(--black, #000000);
+}
+
+.combobox-light-green .k-multiselect .k-button.k-state-hover,
+.combobox-light-green .k-multiselect .k-button {
+    border-color: var(--light-green, #B7FF85);
+    background: var(--light-green, #B7FF85);
+    color: var(--black, #000000);
+}
+
+.combobox-light-green .k-multiselect-wrap .k-button.k-state-hover .k-select,
+.combobox-light-green .k-multiselect-wrap .k-button:hover {
+    background: var(--light-green, #B7FF85);
+    color: var(--black, #000000);
+}
+
+.combobox-light-green .k-multiselect .k-button:active {
+    color: var(--black, #000000);
+    box-shadow: inset 0 0 10px 3px var(--light-green, #B7FF85);
+}
+
+/* Dark green */
+.combobox-dark-green .k-button:before {
+    background: var(--dark-green, #337A00);
+}
+
+.combobox-dark-green .k-multiselect .k-button.k-state-hover,
+.combobox-dark-green .k-multiselect .k-button {
+    border-color: var(--dark-green, #337A00);
+    background: var(--dark-green, #337A00);
+    color: var(--white, #ffffff);
+}
+
+.combobox-dark-green .k-multiselect-wrap .k-button.k-state-hover .k-select,
+.combobox-dark-green .k-multiselect-wrap .k-button:hover {
+    background: var(--dark-green, #337A00);
+    color: var(--white, #ffffff);
+}
+
+.combobox-dark-green .k-multiselect .k-button:active {
+    color: var(--white, #ffffff);
+    box-shadow: inset 0 0 10px 3px var(--dark-green, #337A00);
+}
+
+/* === Default color === */
+/* Default */
+.k-button:before,
+.combobox-default .k-button:before {
+    background: var(--colorDefault40, #3b448e);
+}
+
+.k-multiselect-wrap .k-button .k-select {
+    background: transparent;
+}
+
+
+.k-multiselect .k-button.k-state-hover,
+.k-multiselect .k-button,
+.combobox-default .k-multiselect .k-button.k-state-hover,
+.combobox-default .k-multiselect .k-button {
+    border-color: var(--colorDefault50, #343c7c);
+    background: var(--colorDefault40, #3b448e);
+    color: var(--textColorDefault40, #ffffff);
+    padding-left: 13px;
+    padding-right: 25px;
+}
+
+.k-multiselect-wrap .k-button.k-state-hover .k-select,
+.k-multiselect-wrap .k-button:hover,
+.combobox-default .k-multiselect-wrap .k-button.k-state-hover .k-select,
+.combobox-default .k-multiselect-wrap .k-button:hover {
+    background: var(--colorDefault60, #2b3268);
+    color: var(--textColorDefault40, #ffffff);
+}
+
+.k-multiselect .k-button:active,
+.combobox-default .k-multiselect .k-button:active {
+    color: var(--textColorDefault40, #ffffff);
+    box-shadow: inset 0 0 10px 3px var(--colorDefault50, #343c7c);
+}
+
+/* Primary */
+.combobox-primary .k-button:before {
+    background: var(--colorPrimary40, #5665be);
+}
+
+.combobox-primary .k-multiselect .k-button.k-state-hover,
+.combobox-primary .k-multiselect .k-button {
+    border-color: var(--colorPrimary50, #4b58a6);
+    background: var(--colorPrimary40, #5665be);
+    color: var(--textColorPrimary40, #ffffff);
+}
+
+.combobox-primary .k-multiselect-wrap .k-button.k-state-hover .k-select,
+.combobox-primary .k-multiselect-wrap .k-button:hover {
+    background: var(--colorPrimary60, #3f4a8b);
+    color: var(--textColorPrimary40, #ffffff);
+}
+
+.combobox-primary .k-multiselect .k-button:active {
+    color: var(--textColorPrimary40, #ffffff);
+    box-shadow: inset 0 0 10px 3px var(--colorPrimary50, #4b58a6);
+}
+
+/* success */
+.combobox-success .k-button:before {
+    background: var(--colorSuccess40, #33cd5f);
+}
+
+.combobox-success .k-multiselect .k-button.k-state-hover,
+.combobox-success .k-multiselect .k-button {
+    border-color: var(--colorSuccess50, #2db353);
+    background: var(--colorSuccess40, #33cd5f);
+    color: var(--textColorSuccess40, #ffffff);
+}
+
+.combobox-success .k-multiselect-wrap .k-button.k-state-hover .k-select,
+.combobox-success .k-multiselect-wrap .k-button:hover {
+    background: var(--colorSuccess60, #259646);
+    color: var(--textColorSuccess40, #ffffff);
+}
+
+.combobox-success .k-multiselect .k-button:active {
+    color: var(--textColorSuccess40, #ffffff);
+    box-shadow: inset 0 0 10px 3px var(--colorSuccess50, #2db353);
+}
+
+/* info */
+.combobox-info .k-button:before {
+    background: var(--colorCalm40, #11c1f3);
+}
+
+.combobox-info .k-multiselect .k-button.k-state-hover,
+.combobox-info .k-multiselect .k-button {
+    border-color: var(--colorCalm50, #0fa9d5);
+    background: var(--colorCalm40, #11c1f3);
+    color: var(--textColorCalm40, #ffffff);
+}
+
+.combobox-info .k-multiselect-wrap .k-button.k-state-hover .k-select,
+.combobox-info .k-multiselect-wrap .k-button:hover {
+    background: var(--colorCalm60, #0c8db2);
+    color: var(--textColorCalm40, #ffffff);
+}
+
+.combobox-info .k-multiselect .k-button:active {
+    color: var(--textColorCalm40, #ffffff);
+    box-shadow: inset 0 0 10px 3px var(--colorCalm50, #0fa9d5);
+}
+
+/* warning */
+.combobox-warning .k-button:before {
+    background: var(--colorWarning40, #ffc900);
+}
+
+.combobox-warning .k-multiselect .k-button.k-state-hover,
+.combobox-warning .k-multiselect .k-button {
+    border-color: var(--colorWarning50, #dfb000);
+    background: var(--colorWarning40, #ffc900);
+    color: var(--textColorWarning40, #ffffff);
+}
+
+.combobox-warning .k-multiselect-wrap .k-button.k-state-hover .k-select,
+.combobox-warning .k-multiselect-wrap .k-button:hover {
+    background: var(--colorWarning60, #bb9300);
+    color: var(--textColorWarning40, #ffffff);
+}
+
+.combobox-warning .k-multiselect .k-button:active {
+    color: var(--textColorWarning40, #ffffff);
+    box-shadow: inset 0 0 10px 3px var(--colorWarning50, #dfb000);
+}
+
+/* danger */
+.combobox-danger .k-button:before {
+    background: var(--colorDanger40, #ef473a);
+}
+
+.combobox-danger .k-multiselect .k-button.k-state-hover,
+.combobox-danger .k-multiselect .k-button {
+    border-color: var(--colorDanger50, #d13e33);
+    background: var(--colorDanger40, #ef473a);
+    color: var(--textColorDanger40, #ffffff);
+}
+
+.combobox-danger .k-multiselect-wrap .k-button.k-state-hover .k-select,
+.combobox-danger .k-multiselect-wrap .k-button:hover {
+    background: var(--colorDanger60, #af342a);
+    color: var(--textColorDanger40, #ffffff);
+}
+
+.combobox-danger .k-multiselect .k-button:active {
+    color: var(--textColorDanger40, #ffffff);
+    box-shadow: inset 0 0 10px 3px var(--colorDanger50, #d13e33);
+}
+
+/* light */
+.combobox-light .k-button:before {
+    background: var(--colorLight40, #ffffff);
+}
+
+.combobox-light .k-multiselect .k-button.k-state-hover,
+.combobox-light .k-multiselect .k-button {
+    border-color: var(--colorLight50, #dfdfdf);
+    background: var(--colorLight40, #ffffff);
+    color: var(--textColorLight40, #444444);
+}
+
+.combobox-light .k-multiselect-wrap .k-button.k-state-hover .k-select,
+.combobox-light .k-multiselect-wrap .k-button:hover {
+    background: var(--colorLight60, #bbbbbb);
+    color: var(--textColorLight40, #444444);
+}
+
+.combobox-light .k-multiselect .k-button:active {
+    color: var(--textColorLight40, #444444);
+    box-shadow: inset 0 0 10px 3px var(--colorLight50, #dfdfdf);
+}
+
+/* Stable */
+.combobox-stable .k-button:before {
+    background: var(--colorStable40, #f8f8f8);
+}
+
+.combobox-stable .k-multiselect .k-button.k-state-hover,
+.combobox-stable .k-multiselect .k-button {
+    border-color: var(--colorStable50, #d9d9d9);
+    background: var(--colorStable40, #f8f8f8);
+    color: var(--textColorStable40, #444444);
+}
+
+.combobox-stable .k-multiselect-wrap .k-button.k-state-hover .k-select,
+.combobox-stable .k-multiselect-wrap .k-button:hover {
+    background: var(--colorStable60, #b6b6b6);
+    color: var(--textColorStable40, #444444);
+}
+
+.combobox-stable .k-multiselect .k-button:active {
+    color: var(--textColorStable40, #444444);
+    box-shadow: inset 0 0 10px 3px var(--colorStable50, #d9d9d9);
+}
+
+
+/* Royal */
+.combobox-royal .k-button:before {
+    background: var(--colorRoyal40, #886aea);
+}
+
+.combobox-royal .k-multiselect .k-button.k-state-hover,
+.combobox-royal .k-multiselect .k-button {
+    border-color: var(--colorRoyal50, #775dcd);
+    background: var(--colorRoyal40, #886aea);
+    color: var(--textColorRoyal40, #ffffff);
+}
+
+.combobox-royal .k-multiselect-wrap .k-button.k-state-hover .k-select,
+.combobox-royal .k-multiselect-wrap .k-button:hover {
+    background: var(--colorRoyal60, #644eab);
+    color: var(--textColorRoyal40, #ffffff);
+}
+
+.combobox-royal .k-multiselect .k-button:active {
+    color: var(--textColorRoyal40, #ffffff);
+    box-shadow: inset 0 0 10px 3px var(--colorRoyal50, #775dcd);
+}
+
+
+/* Dark */
+.combobox-dark .k-button:before {
+    background: var(--colorDark40, #444444);
+}
+
+.combobox-dark .k-multiselect .k-button.k-state-hover,
+.combobox-dark .k-multiselect .k-button {
+    border-color: var(--colorDark50, #3c3c3c);
+    background: var(--colorDark40, #444444);
+    color: var(--textColorDark40, #ffffff);
+}
+
+.combobox-dark .k-multiselect-wrap .k-button.k-state-hover .k-select,
+.combobox-dark .k-multiselect-wrap .k-button:hover {
+    background: var(--colorDark60, #323232);
+    color: var(--textColorDark40, #ffffff);
+}
+
+.combobox-dark .k-multiselect .k-button:active {
+    color: var(--textColorDark40, #ffffff);
+    box-shadow: inset 0 0 10px 3px var(--colorDark50, #3c3c3c);
+}

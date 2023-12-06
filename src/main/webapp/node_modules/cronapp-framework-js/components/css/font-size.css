@@ -1,0 +1,31 @@
+.font-size-20{
+    font-size: 20px;
+}
+
+.font-size-47{
+    font-size: 47px;
+}
+
+.font-size-30{
+    font-size: 30px;
+}
+
+.font-size-25{
+    font-size: 25px;
+}
+
+.font-size-default {
+    font-size: var(--iconSizeDefault, 28px);
+}
+
+.font-size-small {
+    font-size: var(--iconSizeSmall, 25px);
+}
+
+.font-size-big {
+    font-size: var(--iconSizeBig, 31px);
+}
+
+.font-size-extra-big {
+    font-size: var(--iconSizeExtraBig, 34px);
+}

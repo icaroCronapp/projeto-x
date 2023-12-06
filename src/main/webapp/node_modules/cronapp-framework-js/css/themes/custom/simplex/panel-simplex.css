@@ -1,0 +1,120 @@
+.panel {
+    background: var(--backgroundColor10, #ffffff);
+    box-shadow: none;
+}
+
+.panel-footer {
+    color: var(--textColor40, #777777);
+    background: var(--backgroundColor40, #fcfcfc);
+}
+
+/* Default */
+.panel-default .panel-heading {
+    color: var(--textColorPrimary40, #ffffff);
+    background: var(--colorPrimary40, #d9230f);
+    border-color: transparent;
+}
+
+.panel-default {
+    border-color: var(--colorPrimary40, #d9230f);
+}
+
+/* Primary */
+.panel-primary>.panel-heading {
+    color: var(--textColor40, #777777);
+    background: var(--backgroundColor40, #fcfcfc);
+    border-color: var(--colorLight50, #dfdfdf);
+}
+
+.panel-primary {
+    border-color: var(--colorLight50, #dfdfdf);
+}
+
+/* Sucess */
+.panel-success>.panel-heading {
+    color: var(--textColorSuccess40, #ffffff);
+    background: var(--colorSuccess40, #469408);
+    border-color: transparent
+}
+
+.panel-success {
+    border-color: var(--colorSuccess40, #469408);
+}
+
+/* Info */
+.panel-info>.panel-heading {
+    color: var(--textColorCalm40, #ffffff);
+    background: var(--colorCalm40, #029acf);
+    border-color: transparent
+}
+
+.panel-info {
+    border-color: var(--colorCalm40, #029acf);
+}
+
+/* Warning */
+.panel-warning>.panel-heading {
+    color: var(--textColorWarning40, #ffffff);
+    background: var(--colorWarning40, #d9831f);
+    border-color: transparent
+}
+
+.panel-warning {
+    border-color: var(--colorWarning40, #d9831f);
+}
+
+/* Danger */
+.panel-danger>.panel-heading {
+    color: var(--textColorDanger40, #ffffff);
+    background: var(--colorDanger40, #9b479f);
+    border-color: transparent
+}
+
+.panel-danger {
+    border-color: var(--colorDanger40, #9b479f);
+}
+
+/* Light */
+.panel-light>.panel-heading {
+    color: var(--textColor40, #3e3f3a);
+    background: var(--backgroundColor40, #fcfcfc);
+    border-color: var(--backgroundColor50, #dddddd);
+}
+
+.panel-light {
+    border-color: var(--backgroundColor50, #dddddd);
+}
+
+
+/* Stable */
+.panel-stable>.panel-heading{
+    color: var(--textColorStable40, #444444);
+    background: var(--colorStable50, #d9d9d9);
+    border-color: transparent
+}
+
+.panel-stable {
+    border-color: var(--colorStable50, #d9d9d9);
+}
+
+/* Royal */
+.panel-royal>.panel-heading {
+    color: var(--textColorRoyal40, #ffffff);
+    background: var(--colorRoyal40, #886aea);
+    border-color: transparent
+}
+
+.panel-royal {
+    border-color: var(--colorRoyal40, #886aea);
+}
+
+/* Dark */
+.panel-dark>.panel-heading {
+    color: var(--textColorDark40, #ffffff);
+    background: var(--colorDark40, #3e3f3a);
+    border-color: transparent
+}
+
+.panel-dark {
+    border-color: var(--colorDark40, #3e3f3a);
+}

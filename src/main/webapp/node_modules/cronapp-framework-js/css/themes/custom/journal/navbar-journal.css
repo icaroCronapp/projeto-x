@@ -1,0 +1,161 @@
+.navbar img[src="node_modules/cronapp-framework-js/dist/img/img-user.svg"] {
+    background: var(--textColor40, #393939);
+}
+
+.navbar {
+    background: var(--backgroundColor40, #ffffff);
+    border-bottom: 1px solid var(--colorDefault10, #e9e9e9);
+}
+
+.navbar-inverse {
+    background: var(--colorPrimary40, #eb6864);
+    border: none
+}
+
+.navbar-inverse .badge {
+    background: #fff;
+    color: var(--colorPrimary40, #eb6864);
+}
+
+.navbar-default .navbar-nav>li>a,
+#main-nav-bar .navbar-default .container-fluid #navbar .navbar-nav li a,
+#main-nav-bar .navbar-default .container-fluid #navbar2 .navbar-nav li a,
+#main-nav-bar .navbar-default .container-fluid #navbar .navbar-nav li a span,
+#main-nav-bar .navbar-default .container-fluid #navbar2 .navbar-nav li a span {
+    color: var(--textColor40, #222222);
+    font-size: var(--textNormalSize, 14px);
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover,
+.nav .open>a,
+.nav .open>a:focus,
+.nav .open>a:hover,
+#main-nav-bar .navbar-default .container-fluid #navbar .navbar-nav li a:hover,
+#main-nav-bar .navbar-default .container-fluid #navbar2 .navbar-nav li a:hover,
+#main-nav-bar .navbar-default .container-fluid #navbar .navbar-nav li .dropdown-menu li a:hover,
+#main-nav-bar .navbar-default .container-fluid #navbar2 .navbar-nav li .dropdown-menu li a:hover,
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover {
+    color: var(--textColor40, #222222);
+    background: var(--backgroundColor50, #dfdfdf);
+}
+
+.navbar-default #navbar .navbar-nav li .dropdown-menu a:hover,
+.navbar-default #navbar2 .navbar-nav li .dropdown-menu a:hover,
+#main-nav-bar .navbar-default .container-fluid #navbar .navbar-nav li .dropdown-menu li a:hover,
+#main-nav-bar .navbar-default .container-fluid #navbar2 .navbar-nav li .dropdown-menu li a:hover {
+    color: var(--textColorPrimary40, #ffffff);
+    background: var(--colorPrimary40, #eb6864);
+}
+
+.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover,
+#main-nav-bar .navbar-default .container-fluid #navbar .navbar-nav li .dropdown-menu li a:hover span,
+#main-nav-bar .navbar-default .container-fluid #navbar2 .navbar-nav li .dropdown-menu li a:hover span {
+    color: var(--textColorPrimary40, #ffffff);
+}
+
+.dropdown-menu>li>a,
+.dropdown-menu {
+    color: var(--textColor40, #222222);
+    background: var(--backgroundColor40, #ffffff);
+}
+
+#main-nav-bar.navbar-default .container-fluid #navbar .navbar-nav li .dropdown-menu a,
+#main-nav-bar.navbar-default .container-fluid #navbar2 .navbar-nav li .dropdown-menu a {
+    color: var(--textColor40, #222222);
+}
+
+/* Vertical */
+.crn-navigator-vertical {
+    background: var(--backgroundColor40, #ffffff);
+    border-right: 1px solid var(--colorDefault10, #e9e9e9);
+}
+
+.crn-navigator-vertical .navbar {
+    background: var(--backgroundColor40, #ffffff);
+    border: 0;
+}
+
+/* Menu mobile */
+.navbar-default .navbar-toggle {
+    border-color: var(--colorDefault10, #e9e9e9);
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background: var(--colorDefault30, #c1c1c1);
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background: var(--colorDefault20, #d6d6d6);
+    border-color: transparent;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .navbar-default #navbar .navbar-nav li .dropdown-menu a,
+    .navbar-default #navbar2 .navbar-nav li .dropdown-menu a {
+        color: var(--textColor40, #222222);
+        font-size: var(--textNormalSize, 14px);
+    }
+}
+
+@media (max-width: 767px) {
+
+    .navbar-default {
+        background: var(--colorNeutral10, #F1F1F1);
+        border-color: var(--colorNeutral30, #D5D5D5);
+    }
+
+    #main-nav-bar.navbar-default .container-fluid #navbar .navbar-nav li .dropdown-menu a,
+    #main-nav-bar.navbar-default .container-fluid #navbar2 .navbar-nav li .dropdown-menu a,
+    #main-nav-bar.navbar-default .container-fluid #navbar .navbar-nav li .dropdown-menu a span,
+    #main-nav-bar.navbar-default .container-fluid #navbar2 .navbar-nav li .dropdown-menu a span,
+    #main-nav-bar.navbar-default .container-fluid #navbar .navbar-nav li .dropdown-menu a i,
+    #main-nav-bar.navbar-default .container-fluid #navbar2 .navbar-nav li .dropdown-menu a i,
+    #main-nav-bar .navbar-default .container-fluid #navbar .navbar-nav li a span,
+    #main-nav-bar .navbar-default .container-fluid #navbar2 .navbar-nav li a span,
+    #main-nav-bar .navbar-default .container-fluid #navbar .navbar-nav li .dropdown-menu a span,
+    #main-nav-bar .navbar-default .container-fluid #navbar2 .navbar-nav li .dropdown-menu a span,
+    #main-nav-bar .navbar-default .container-fluid #navbar .navbar-nav li a,
+    #main-nav-bar .navbar-default .container-fluid #navbar2 .navbar-nav li a,
+    #main-nav-bar .navbar-default .container-fluid #navbar .navbar-nav li .dropdown-menu a,
+    #main-nav-bar .navbar-default .container-fluid #navbar2 .navbar-nav li .dropdown-menu a {
+        color: var(--textColor30, #7f7f7f);
+    }
+
+    .navbar-default .navbar-nav>.open>a:focus,
+    .navbar-default .navbar-nav>.open>a:hover {
+        color: var(--textColor40, #222222);
+        background: var(--backgroundColor50, #dfdfdf);
+    }
+
+    #main-nav-bar .navbar-default .container-fluid #navbar .navbar-nav li .dropdown-menu li a:hover,
+    #main-nav-bar .navbar-default .container-fluid #navbar2 .navbar-nav li .dropdown-menu li a:hover {
+        color: var(--textColor40, #222222);
+        background: transparent;
+    }
+
+    #main-nav-bar .navbar-default .container-fluid #navbar .navbar-nav .open a:hover i,
+    #main-nav-bar .navbar-default .container-fluid #navbar2 .navbar-nav .open a:hover i,
+    #main-nav-bar .navbar-default .container-fluid #navbar .navbar-nav .open .dropdown-menu li a:hover i,
+    #main-nav-bar .navbar-default .container-fluid #navbar2 .navbar-nav .open .dropdown-menu li a:hover i,
+    #main-nav-bar .navbar-default .container-fluid #navbar .navbar-nav .open a:hover span,
+    #main-nav-bar .navbar-default .container-fluid #navbar2 .navbar-nav .open a:hover span,
+    #main-nav-bar .navbar-default .container-fluid #navbar .navbar-nav .open .dropdown-menu li a:hover span,
+    #main-nav-bar .navbar-default .container-fluid #navbar2 .navbar-nav .open .dropdown-menu li a:hover span,
+    #main-nav-bar .navbar-default .container-fluid #navbar .navbar-nav .open a:hover,
+    #main-nav-bar .navbar-default .container-fluid #navbar2 .navbar-nav .open a:hover,
+    #main-nav-bar .navbar-default .container-fluid #navbar .navbar-nav .open .dropdown-menu li a:hover,
+    #main-nav-bar .navbar-default .container-fluid #navbar2 .navbar-nav .open .dropdown-menu li a:hover {
+        color: var(--textColor40, #222222);
+    }
+}

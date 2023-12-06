@@ -1,0 +1,154 @@
+{
+  "name": "crn-upload-file",
+  "text_pt_BR": "Botão de envio de arquivo",
+  "text_en_US": "File Upload Button",
+  "wrapper": false,
+  "pallete": false,
+  "class": "adjust-icon mdi mdi-cloud-upload",
+  "templateURL": "src/main/webapp/node_modules/cronapp-framework-js/dist/components/templates/fileupload-button.template.html",
+  "properties": {
+    "ng-init": {
+      "removable": true,
+      "type": "event"
+    },
+    "ng-click": {
+      "removable": true,
+      "type": "event"
+    },
+    "ng-dblclick": {
+      "removable": true,
+      "type": "event"
+    },
+    "ng-mouseenter": {
+      "removable": true,
+      "type": "event"
+    },
+    "ng-mouseleave": {
+      "removable": true,
+      "type": "event"
+    },
+    "ng-mousemove": {
+      "removable": true,
+      "type": "event"
+    },
+    "xattr-theme": {
+      "displayName_pt_BR": "Tema",
+      "displayName_en_US": "Theme",
+      "order": 2
+    },
+    "class": {
+      "order": 9999
+    }
+  },
+  "attributesForPreview": [
+    {
+      "name": "xattr-theme",
+      "type": "options",
+      "target": "class",
+      "values": [
+        {
+          "key": "btn-default",
+          "value_pt_BR": "Padrão do tema",
+          "value_en_US": "Default theme",
+          "color": "--btnDefault",
+          "borderColor": "--borderBtnDefault"
+        },
+        {
+          "key": "btn-primary",
+          "value_pt_BR": "Secundário",
+          "value_en_US": "Secondary",
+          "color": "--btnPrimary",
+          "borderColor": "--borderBtnPrimary"
+        },
+        {
+          "key": "btn-success",
+          "value_pt_BR": "Sucesso",
+          "value_en_US": "Success",
+          "color": "--btnSuccess",
+          "borderColor": "--borderBtnSuccess"
+        },
+        {
+          "key": "btn-info",
+          "value_pt_BR": "Informação",
+          "value_en_US": "Info",
+          "color": "--btnCalm",
+          "borderColor": "--borderBtnCalm"
+        },
+        {
+          "key": "btn-warning",
+          "value_pt_BR": "Aviso",
+          "value_en_US": "Warning",
+          "color": "--btnWarning",
+          "borderColor": "--borderBtnWarning"
+        },
+        {
+          "key": "btn-danger",
+          "value_pt_BR": "Perigo",
+          "value_en_US": "Danger",
+          "color": "--btnDanger",
+          "borderColor": "--borderBtnDanger"
+        },
+        {
+          "key": "btn-light",
+          "value_pt_BR": "Claro",
+          "value_en_US": "Light",
+          "color": "--btnLight",
+          "borderColor": "--borderBtnLight"
+        },
+        {
+          "key": "btn-link",
+          "value_pt_BR": "Link",
+          "value_en_US": "Link",
+          "color": "--btnLink",
+          "borderColor": "--borderBtnLink"
+        },
+        {
+          "key": "btn-stable",
+          "value_pt_BR": "Estável",
+          "value_en_US": "Stable",
+          "color": "--btnStable",
+          "borderColor": "--borderBtnStable"
+        },
+        {
+          "key": "btn-royal",
+          "value_pt_BR": "Real",
+          "value_en_US": "Royal",
+          "color": "--btnRoyal",
+          "borderColor": "--borderBtnRoyal"
+        },
+        {
+          "key": "btn-dark",
+          "value_pt_BR": "Escuro",
+          "value_en_US": "Dark",
+          "color": "--btnDark",
+          "borderColor": "--borderBtnDark"
+        }
+      ]
+    }
+  ],
+  "childrenProperties": [
+    {
+      "name": "ng-model",
+      "selector": "label",
+      "onSave": "javascript:function() { var result = arguments[0]; if (result.indexOf('.') == -1 && result.trim().length > 0 ) { result = 'vars.'+result;  }  return result; }",
+      "onDisplay": "javascript:function() { return arguments[0].replace('vars.',''); }",
+      "type": "text",
+      "mandatory": true,
+      "order": 1
+    },
+    {
+      "name": "class",
+      "selector": "i",
+      "displayName_pt_BR": "Ícone",
+      "displayName_en_US": "Icon",
+      "type": "icon"
+    },
+    {
+      "name": "content",
+      "displayName_pt_BR": "Título",
+      "displayName_en_US": "Title",
+      "selector": "span",
+      "type": "content"
+    }
+  ]
+}

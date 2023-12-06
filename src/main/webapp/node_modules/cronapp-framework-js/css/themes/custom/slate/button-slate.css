@@ -1,0 +1,326 @@
+.k-scheduler-edit-form .k-edit-field .k-button,
+.k-edit-form-container .k-edit-buttons .k-primary,
+.k-edit-form-container .k-edit-buttons .k-scheduler-canceltimezone,
+.k-edit-form-container .k-edit-buttons .k-scheduler-cancel,
+.btn,
+.k-button {
+    background: var(--colorDefault40, #f5f5f5);
+    text-align: center;
+    color: var(--textColorDefault40, #444444);
+    border: 1px solid;
+}
+
+.btn:focus:hover,
+.k-button:focus:hover {
+    box-shadow: none;
+}
+
+/* Default */
+.btn,
+.k-button,
+.k-button.k-default,
+.btn.btn-default {
+    background: linear-gradient(var(--colorDefault40, #3a3f44), var(--colorDefault40, #3a3f44) 60%, var(--colorDefault50, #33373c));
+    border-color: var(--colorDefault70, #202325);
+    color: var(--textColorDefault40, #ffffff);
+}
+
+.k-button:focus,
+.k-button:hover,
+.btn:focus,
+.btn:hover ,
+.k-button.k-default:focus,
+.k-button.k-default:hover,
+.btn.btn-default:focus,
+.btn.btn-default:hover {
+    box-shadow: none;
+    background: var(--colorDefault70, #202325);
+    border-color: var(--colorDefault70, #202325);
+    color: var(--textColorDefault40, #ffffff);
+}
+
+.k-button.active,
+.k-button:active,
+.btn.active,
+.btn:active,
+.k-button.k-default.active,
+.k-button.k-default:active,
+.btn.btn-default.active,
+.btn.btn-default:active {
+    background: var(--colorDefault30, #858789);
+    color: var(--textColorDefault40, #ffffff);
+}
+
+
+/* Primary */
+.k-scheduler-edit-form .k-edit-field .k-button,
+.k-edit-form-container .k-edit-buttons .k-primary,
+.k-button.k-primary,
+.btn.btn-primary {
+    background: linear-gradient(var(--colorPrimary40, #7a8288), var(--colorPrimary40, #7a8288) 60%, var(--colorPrimary50, #6b7277));
+    border-color: var(--colorPrimary70, #43474a);
+    color: var(--textColorPrimary40, #ffffff);
+}
+
+.k-scheduler-edit-form .k-edit-field .k-button:hover,
+.k-edit-form-container .k-edit-buttons .k-primary:hover,
+.k-scheduler-edit-form .k-edit-field .k-button:focus,
+.k-edit-form-container .k-edit-buttons .k-primary:focus,
+.k-button.k-primary:focus,
+.k-button.k-primary:hover,
+.btn.btn-primary:focus,
+.btn.btn-primary:hover {
+    background: linear-gradient(var(--colorPrimary60, #595f64), var(--colorPrimary60, #595f64) 40%, var(--colorPrimary50, #6b7277));
+    box-shadow: none;
+    border-color: var(--colorPrimary70, #43474a);
+    color: var(--textColorPrimary40, #ffffff);
+}
+
+.k-scheduler-edit-form .k-edit-field .k-button:active,
+.k-edit-form-container .k-edit-buttons .k-primary:active,
+.k-button.k-primary.active,
+.k-button.k-primary:active,
+.btn.btn-primary.active,
+.btn.btn-primary:active {
+    background: var(--colorPrimary30, #a3a8ab);
+    color: var(--textColorPrimary40, #ffffff);
+}
+
+/* Success */
+.k-button.k-success,
+.btn.btn-success {
+    background: linear-gradient(var(--colorSuccess40, #62c462), var(--colorSuccess40, #62c462) 60%, var(--colorSuccess50, #56ac56));
+    border-color: var(--colorSuccess70, #366b36);
+    color: var(--textColorSuccess40, #ffffff);
+}
+
+.k-button.k-success:focus,
+.k-button.k-success:hover,
+.btn.btn-success:focus,
+.btn.btn-success:hover {
+    background: linear-gradient(var(--colorSuccess60, #489048), var(--colorSuccess60, #489048) 40%, var(--colorSuccess50, #56ac56));
+    box-shadow: none;
+    border-color: var(--colorSuccess70, #366b36);
+    color: var(--textColorSuccess40, #ffffff);
+}
+
+.k-button.k-success.active,
+.k-button.k-success:active,
+.btn.btn-success.active,
+.btn.btn-success:active {
+    background: var(--colorSuccess30, #96d396);
+    color: var(--textColorSuccess40, #ffffff);
+}
+
+/* Warning */
+.k-button.k-warning,
+.btn.btn-warning {
+    background: linear-gradient(var(--colorWarning40, #f89406), var(--colorWarning40, #f89406) 60%, var(--colorWarning50, #d98205));
+    border-color: var(--colorWarning70, #885103);
+    color: var(--textColorWarning40, #ffffff);
+}
+
+.k-button.k-warning:focus,
+.k-button.k-warning:hover,
+.btn.btn-warning:focus,
+.btn.btn-warning:hover {
+    background: linear-gradient(var(--colorWarning60, #b66c04), var(--colorWarning60, #b66c04) 40%, var(--colorWarning50, #d98205));
+    box-shadow: none;
+    border-color: var(--colorWarning70, #885103);
+    color: var(--textColorWarning40, #ffffff);
+}
+
+.k-button.k-warning.active,
+.k-button.k-warning:active,
+.btn.btn-warning.active,
+.btn.btn-warning:active {
+    background: var(--colorWarning30, #fab37b);
+    color: var(--textColorWarning40, #ffffff);
+}
+
+/* Danger */
+.k-edit-form-container .k-edit-buttons .k-scheduler-canceltimezone,
+.k-edit-form-container .k-edit-buttons .k-scheduler-cancel,
+.k-button.k-danger,
+.btn.btn-danger {
+    background: linear-gradient(var(--colorDanger40, #ee5f5b), var(--colorDanger40, #ee5f5b) 60%, var(--colorDanger50, #d05350));
+    border-color: var(--colorDanger70, #823432);
+    color: var(--textColorDanger40, #ffffff);
+}
+
+.k-edit-form-container .k-edit-buttons .k-scheduler-canceltimezone:hover,
+.k-edit-form-container .k-edit-buttons .k-scheduler-cancel:hover,
+.k-edit-form-container .k-edit-buttons .k-scheduler-canceltimezone:focus,
+.k-edit-form-container .k-edit-buttons .k-scheduler-cancel:focus,
+.k-button.k-danger:focus,
+.k-button.k-danger:hover,
+.btn.btn-danger:focus,
+.btn.btn-danger:hover {
+    background: linear-gradient(var(--colorDanger60, #ae4643), var(--colorDanger60, #ae4643) 40%, var(--colorDanger50, #d05350));
+    box-shadow: none;
+    border-color: var(--colorDanger70, #823432);
+    color: var(--textColorDanger40, #ffffff);
+}
+
+.k-edit-form-container .k-edit-buttons .k-scheduler-canceltimezone:active,
+.k-edit-form-container .k-edit-buttons .k-scheduler-cancel:active,
+.k-button.k-danger.active,
+.k-button.k-danger:active,
+.btn.btn-danger.active,
+.btn.btn-danger:active {
+    background: var(--colorDanger30, #f29593);
+    color: var(--textColorDanger40, #ffffff);
+}
+
+/* Info */
+.k-button.k-info,
+.btn.btn-info {
+    background: linear-gradient(var(--colorCalm40, #5bc0de), var(--colorCalm40, #5bc0de) 60%, var(--colorCalm50, #50a8c2));
+    border-color: var(--colorCalm70, #32697a);
+    color: var(--textColorCalm40, #ffffff);
+}
+
+.k-button.k-info:focus,
+.k-button.k-info:hover,
+.btn.btn-info:focus,
+.btn.btn-info:hover {
+    background: linear-gradient(var(--colorCalm60, #438da3), var(--colorCalm60, #438da3) 40%, var(--colorCalm50, #50a8c2));
+    box-shadow: none;
+    border-color: var(--colorCalm70, #32697a);
+    color: var(--textColorCalm40, #ffffff);
+}
+
+.k-button.k-info.active,
+.k-button.k-info:active,
+.btn.btn-info.active,
+.btn.btn-info:active {
+    background: var(--colorCalm30, #93d0e6);
+    color: var(--textColorCalm40, #ffffff);
+}
+
+/* Light */
+.k-button.k-light,
+.btn.btn-light {
+    background: linear-gradient(var(--colorLight40, #e9ecef), var(--colorLight40, #e9ecef) 60%, var(--colorLight50, #cccfd1));
+    border-color: var(--colorLight70, #808183);
+    color: var(--textColorLight40, #7b7b7b);
+}
+
+.k-button.k-light:focus,
+.k-button.k-light:hover,
+.btn.btn-light:focus,
+.btn.btn-light:hover {
+    background: linear-gradient(var(--colorLight60, #abadaf), var(--colorLight60, #abadaf) 40%, var(--colorLight50, #cccfd1));
+    box-shadow: none;
+    border-color: var(--colorLight70, #808183);
+    color: var(--textColorLight40, #7b7b7b);
+}
+
+.k-button.k-light.active,
+.k-button.k-light:active,
+.btn.btn-light.active,
+.btn.btn-light:active {
+    background: var(--colorLight30, #eef1f3);
+    color: var(--textColorLight40, #000000);
+}
+
+/* Link */
+.btn.btn-link {
+    background: transparent;
+    border: none;
+}
+
+.btn.btn-link i,
+.btn.btn-link span {
+    color: var(--textColorDefault40, #ffffff);
+}
+
+.btn.btn-link:focus,
+.btn.btn-link:hover {
+    color: var(--textColorDefault40, #ffffff);
+    text-decoration: underline;
+    background: transparent;
+}
+
+.btn.btn-link:focus i,
+.btn.btn-link:hover i {
+    text-decoration: none;
+}
+
+/* stable */
+.k-button.k-stable,
+.btn.btn-stable {
+    background: linear-gradient(var(--colorStable40, #f8f8f8), var(--colorStable40, #f8f8f8) 60%, var(--colorStable50, #d9d9d9));
+    border-color: var(--colorStable70, #888888);
+    color: var(--textColorStable40, #444444);
+}
+
+.k-button.k-stable:focus,
+.k-button.k-stable:hover,
+.btn.btn-stable:focus,
+.btn.btn-stable:hover {
+    background: linear-gradient(var(--colorStable60, #b6b6b6), var(--colorStable60, #b6b6b6) 40%, var(--colorStable50, #d9d9d9));
+    box-shadow: none;
+    border-color: var(--colorStable70, #888888);
+    color: var(--textColorStable40, #444444);
+}
+
+.btn.btn-stable.active,
+.btn.btn-stable:active,
+.k-button.k-stable.active,
+.k-button.k-stable:active {
+    background: var(--colorStable30, #fafafa);
+    color: var(--textColorStable40, #444444);
+}
+
+/* royal */
+.k-button.k-royal,
+.btn.btn-royal {
+    background: linear-gradient(var(--colorRoyal40, #886aea), var(--colorRoyal40, #886aea) 60%, var(--colorRoyal50, #775dcd));
+    border-color: var(--colorRoyal70, #4a3a80);
+    color: var(--textColorRoyal40, #ffffff);
+}
+
+.k-button.k-royal:focus,
+.k-button.k-royal:hover,
+.btn.btn-royal:focus,
+.btn.btn-royal:hover {
+    background: linear-gradient(var(--colorRoyal60, #644eab), var(--colorRoyal60, #644eab) 40%, var(--colorRoyal50, #775dcd));
+    box-shadow: none;
+    border-color: var(--colorRoyal70, #4a3a80);
+    color: var(--textColorRoyal40, #ffffff);
+}
+
+.btn.btn-royal.active,
+.btn.btn-royal:active,
+.k-button.k-royal.active,
+.k-button.k-royal:active {
+    background: var(--colorRoyal30, #ab9aef);
+    color: var(--textColorRoyal40, #ffffff);
+}
+
+/* Dark */
+.k-button.k-dark,
+.btn.btn-dark {
+    background: linear-gradient(var(--colorDark40, #272b30), var(--colorDark40, #272b30) 60%, var(--colorDark50, #22262a));
+    border-color: var(--colorDark70, #15181a);
+    color: var(--textColorDark40, #ffffff);
+}
+
+.k-button.k-dark:focus,
+.k-button.k-dark:hover,
+.btn.btn-dark:focus,
+.btn.btn-dark:hover {
+    background: linear-gradient(var(--colorDark60, #1d2023), var(--colorDark60, #1d2023) 40%, var(--colorDark50, #22262a));
+    box-shadow: none;
+    border-color: var(--colorDark70, #15181a);
+    color: var(--textColorDark40, #ffffff);
+}
+
+.btn.btn-dark.active,
+.btn.btn-dark:active,
+.k-button.k-dark.active,
+.k-button.k-dark:active {
+    background: var(--colorDark30, #808182);
+    color: var(--textColorDark40, #ffffff);
+}

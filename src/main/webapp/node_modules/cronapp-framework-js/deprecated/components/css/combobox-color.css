@@ -1,0 +1,145 @@
+/* white */
+
+.combobox-white .k-multiselect-wrap .k-button .k-select, .combobox-white .k-button:before {
+    background-color: var(--white);
+}
+
+.combobox-white .k-multiselect-wrap .k-button .k-select .k-icon {
+    color: var(--black);
+}
+
+/* gray */
+
+.combobox-gray .k-multiselect-wrap .k-button .k-select, .combobox-gray .k-button:before {
+    background-color: var(--gray);
+}
+
+/* black */
+
+.combobox-black .k-multiselect-wrap .k-button .k-select, .combobox-black .k-button:before {
+    background-color: var(--black);
+}
+
+/* blue */
+
+.combobox-blue .k-multiselect-wrap .k-button .k-select, .combobox-blue .k-button:before {
+    background-color: var(--blue);
+}
+
+/* light-blue */
+
+.combobox-light-blue .k-multiselect-wrap .k-button .k-select, .combobox-light-blue .k-button:before {
+    background-color: var(--light-blue);
+}
+
+/* dark-blue */
+
+.combobox-dark-blue .k-multiselect-wrap .k-button .k-select, .combobox-dark-blue .k-button:before {
+    background-color: var(--dark-blue);
+}
+
+/* purple */
+
+.combobox-purple .k-multiselect-wrap .k-button .k-select, .combobox-purple .k-button:before {
+    background-color: var(--purple);
+}
+
+/* light-purple */
+
+.combobox-light-purple .k-multiselect-wrap .k-button .k-select, .combobox-light-purple .k-button:before {
+    background-color: var(--light-purple);
+}
+
+/* dark-purple */
+
+.combobox-dark-purple .k-multiselect-wrap .k-button .k-select, .combobox-dark-purple .k-button:before {
+    background-color: var(--dark-purple);
+}
+
+/* red */
+
+.combobox-red .k-multiselect-wrap .k-button .k-select, .combobox-red .k-button:before {
+    background-color: var(--red);
+}
+
+/* light-red */
+
+.combobox-light-red .k-multiselect-wrap .k-button .k-select, .combobox-light-red .k-button:before {
+    background-color: var(--light-red);
+}
+
+/* dark-red */
+
+.combobox-dark-red .k-multiselect-wrap .k-button .k-select, .combobox-dark-red .k-button:before {
+    background-color: var(--dark-red);
+}
+
+/* orange */
+
+.combobox-orange .k-multiselect-wrap .k-button .k-select, .combobox-orange .k-button:before {
+    background-color: var(--orange);
+}
+
+/* light-orange */
+
+.combobox-light-orange .k-multiselect-wrap .k-button .k-select, .combobox-light-orange .k-button:before {
+    background-color: var(--light-orange);
+}
+
+.combobox-light-orange .k-multiselect-wrap .k-button .k-select .k-icon {
+    color: var(--black);
+}
+
+/* dark-orange */
+
+.combobox-dark-orange .k-multiselect-wrap .k-button .k-select, .combobox-dark-orange .k-button:before {
+    background-color: var(--dark-orange);
+}
+
+/* yellow */
+
+.combobox-yellow .k-multiselect-wrap .k-button .k-select, .combobox-yellow .k-button:before {
+    background-color: var(--yellow);
+}
+
+.combobox-yellow .k-multiselect-wrap .k-button .k-select .k-icon {
+    color: var(--black);
+}
+
+/* light-yellow */
+
+.combobox-light-yellow .k-multiselect-wrap .k-button .k-select, .combobox-light-yellow .k-button:before {
+    background-color: var(--light-yellow);
+}
+
+.combobox-light-yellow .k-multiselect-wrap .k-button .k-select .k-icon {
+    color: var(--black);
+}
+
+/* dark-yellow */
+
+.combobox-dark-yellow .k-multiselect-wrap .k-button .k-select, .combobox-dark-yellow .k-button:before {
+    background-color: var(--dark-yellow);
+}
+
+/* green */
+
+.combobox-green .k-multiselect-wrap .k-button .k-select, .combobox-green .k-button:before {
+    background-color: var(--green);
+}
+
+/* light green */
+
+.combobox-light-green .k-multiselect-wrap .k-button .k-select, .combobox-light-green .k-button:before {
+    background-color: var(--light-green);
+}
+
+.combobox-light-green .k-multiselect-wrap .k-button .k-select .k-icon {
+    color: var(--black);
+}
+
+/* Dark green */
+
+.combobox-dark-green .k-multiselect-wrap .k-button .k-select, .combobox-dark-green .k-button:before {
+    background-color: var(--dark-green);
+}

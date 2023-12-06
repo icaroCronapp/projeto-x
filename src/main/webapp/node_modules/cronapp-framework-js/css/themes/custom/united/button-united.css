@@ -1,0 +1,187 @@
+/* Default */
+.k-button:focus,
+.k-button:hover,
+.btn:focus,
+.btn:hover,
+.k-button.k-default:focus,
+.k-button.k-default:hover,
+.btn.btn-default:focus,
+.btn.btn-default:hover {
+    color: var(--textColorDefault40, #ffffff);
+    background: var(--colorDefault50, #98928b);
+}
+
+.k-button.active,
+.k-button:active,
+.btn.active,
+.btn:active,
+.k-button.k-default.active,
+.k-button.k-default:active,
+.btn.btn-default.active,
+.btn.btn-default:active {
+    background: var(--colorDefault60, #7f7a74);
+    color: var(--textColorDefault40, #ffffff);
+}
+
+/* Primary */
+.k-button.k-primary:focus,
+.k-button.k-primary:hover,
+.btn.btn-primary:focus,
+.btn.btn-primary:hover {
+    background: var(--colorPrimary50, #cc4a1c);
+    color: var(--textColorPrimary40, #ffffff);
+}
+
+.btn.btn-primary.active,
+.btn.btn-primary:active,
+.k-button.k-primary.active,
+.k-button.k-primary:active {
+    background: var(--colorPrimary30, #ee8f7e);
+    color: var(--textColorPrimary40, #ffffff);
+}
+
+/* Success */
+.k-button.k-success:focus,
+.k-button.k-success:hover,
+.btn.btn-success:focus,
+.btn.btn-success:hover {
+    background: var(--colorSuccess50, #319e41);
+    color: var(--textColorSuccess40, #ffffff);
+}
+
+.btn.btn-success.active,
+.btn.btn-success:active,
+.k-button.k-success.active,
+.k-button.k-success:active {
+    background: var(--colorSuccess30, #85c88b);
+    color: var(--textColorSuccess40, #ffffff);
+}
+
+/* Warning */
+.k-button.k-warning:focus,
+.k-button.k-warning:hover,
+.btn.btn-warning:focus,
+.btn.btn-warning:hover {
+    background: var(--colorWarning50, #d1a036);
+    color: var(--textColorWarning40, #ffffff);
+}
+
+.btn.btn-warning.active,
+.btn.btn-warning:active,
+.k-button.k-warning.active,
+.k-button.k-warning:active {
+    background: var(--colorWarning30, #f3ca87);
+    color: var(--textColorWarning40, #ffffff);
+}
+
+/* Danger */
+.k-button.k-danger:focus,
+.k-button.k-danger:hover,
+.btn.btn-danger:focus,
+.btn.btn-danger:hover {
+    background: var(--colorDanger50, #c33127);
+    color: var(--textColorDanger40, #ffffff);
+}
+
+.btn.btn-danger.active,
+.btn.btn-danger:active,
+.k-button.k-danger.active,
+.k-button.k-danger:active {
+    background: var(--colorDanger30, #e78581);
+    color: var(--textColorDanger40, #ffffff);
+}
+
+/* Info */
+.k-button.k-info:focus,
+.k-button.k-info:hover,
+.btn.btn-info:focus,
+.btn.btn-info:hover {
+    background: var(--colorCalm50, #682449);
+    color: var(--textColorCalm40, #ffffff);
+}
+
+.btn.btn-info.active,
+.btn.btn-info:active,
+.k-button.k-info.active,
+.k-button.k-info:active {
+    background: var(--colorCalm30, #a1808f);
+    color: var(--textColorCalm40, #ffffff);
+}
+
+/* Light */
+.btn.btn-light.active,
+.btn.btn-light:active,
+.k-button.k-light.active,
+.k-button.k-light:active {
+    background: var(--colorLight40, #ffffff);
+    color: var(--textColor40, #383838);
+}
+
+/* Link */
+.btn.btn-link i,
+.btn.btn-link span,
+.btn.btn-link:focus,
+.btn.btn-link:hover,
+.btn.btn-link.disabled,
+.btn.btn-link[disabled]:hover,
+div#view-canvas .btn.btn-link.disabled {
+    color: var(--colorPrimary40, #e95420);
+}
+
+/* button - btn-fab */
+.btn.btn-fab,
+.btn-fab {
+    display: flex;
+    border-radius: var(--borderRadiusSmallest, 5px);
+}
+
+/* stable */
+.k-button.k-stable:focus,
+.k-button.k-stable:hover,
+.btn.btn-stable:focus,
+.btn.btn-stable:hover {
+    background: var(--colorStable50, #d9d9d9);
+    color: var(--textColorStable40, #ffffff);
+}
+
+.btn.btn-stable.active,
+.btn.btn-stable:active,
+.k-button.k-stable.active,
+.k-button.k-stable:active {
+    background: var(--colorStable30, #fafafa);
+    color: var(--textColorStable40, #ffffff);
+}
+
+/* royal */
+.k-button.k-royal:focus,
+.k-button.k-royal:hover,
+.btn.btn-royal:focus,
+.btn.btn-royal:hover {
+    background: var(--colorRoyal50, #682449);
+    color: var(--textColorRoyal40, #ffffff);
+}
+
+.btn.btn-royal.active,
+.btn.btn-royal:active,
+.k-button.k-royal.active,
+.k-button.k-royal:active {
+    background: var(--colorRoyal30, #a1808f);
+    color: var(--textColorRoyal40, #ffffff);
+}
+
+/* Dark */
+.k-button.k-dark:focus,
+.k-button.k-dark:hover,
+.btn.btn-dark:focus,
+.btn.btn-dark:hover {
+    background: var(--colorDark50, #3c3c3c);
+    color: var(--textColorDark40, #ffffff);
+}
+
+.btn.btn-dark.active,
+.btn.btn-dark:active,
+.k-button.k-dark.active,
+.k-button.k-dark:active {
+    background: var(--colorDark30, #898989);
+    color: var(--textColorDark40, #ffffff);
+}

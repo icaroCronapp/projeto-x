@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "Georgia";
+    font-style: normal;
+    font-weight: 400;
+    src: url('georgia_regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Georgia";
+    font-style: normal;
+    font-weight: 700;
+    src: url('georgia_bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Georgia";
+    font-style: italic;
+    font-weight: 400;
+    src: url('georgia_italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Georgia";
+    font-style: italic;
+    font-weight: 700;
+    src: url('georgia_bold_italic.ttf') format('truetype');
+}

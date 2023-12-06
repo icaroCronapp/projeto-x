@@ -1,0 +1,162 @@
+/* Default */
+.k-button.k-default:focus,
+.k-button.k-default:hover,
+.btn.btn-default:focus,
+.btn.btn-default:hover {
+    color: var(--textColorDefault40, #ffffff);
+    background: var(--colorDefault50, #343c7c);
+}
+
+.k-button.k-default.active,
+.k-button.k-default:active,
+.btn.btn-default.active,
+.btn.btn-default:active {
+    background: var(--colorDefault30, #898989);
+    color: var(--textColorDefault40, #ffffff);
+}
+
+/* Primary */
+.k-button.k-primary:focus,
+.k-button.k-primary:hover,
+.btn.btn-primary:focus,
+.btn.btn-primary:hover {
+    background: var(--colorPrimary50, #343c7c);
+    color: var(--textColorPrimary40, #ffffff);
+}
+
+.btn.btn-primary.active,
+.btn.btn-primary:active,
+.k-button.k-primary.active,
+.k-button.k-primary:active {
+    background: var(--colorPrimary30, #8492a6);
+    color: var(--textColorPrimary40, #ffffff);
+}
+
+/* Success */
+.k-button.k-success:focus,
+.k-button.k-success:hover,
+.btn.btn-success:focus,
+.btn.btn-success:hover {
+    background: var(--colorSuccess50, #343c7c);
+    color: var(--textColorSuccess40, #ffffff);
+}
+
+.btn.btn-success.active,
+.btn.btn-success:active,
+.k-button.k-success.active,
+.k-button.k-success:active {
+    background: var(--colorSuccess30, #7bceae);
+    color: var(--textColorSuccess40, #ffffff);
+}
+
+/* Warning */
+.k-button.k-warning:focus,
+.k-button.k-warning:hover,
+.btn.btn-warning:focus,
+.btn.btn-warning:hover {
+    background: var(--colorWarning50, #343c7c);
+    color: var(--textColorWarning40, #ffffff);
+}
+
+.btn.btn-warning.active,
+.btn.btn-warning:active,
+.k-button.k-warning.active,
+.k-button.k-warning:active {
+    background: var(--colorWarning30, #f6b87c);
+    color: var(--textColorWarning40, #ffffff);
+}
+
+/* Danger */
+.k-button.k-danger:focus,
+.k-button.k-danger:hover,
+.btn.btn-danger:focus,
+.btn.btn-danger:hover {
+    background: var(--colorDanger50, #343c7c);
+    color: var(--textColorDanger40, #ffffff);
+}
+
+.btn.btn-danger.active,
+.btn.btn-danger:active,
+.k-button.k-danger.active,
+.k-button.k-danger:active {
+    background: var(--colorDanger30, #ed8c86);
+    color: var(--textColorDanger40, #ffffff);
+}
+
+/* Info */
+.k-button.k-info:focus,
+.k-button.k-info:hover,
+.btn.btn-info:focus,
+.btn.btn-info:hover {
+    background: var(--colorCalm50, #2e85c0);
+    color: var(--textColorCalm40, #ffffff);
+}
+
+.btn.btn-info.active,
+.btn.btn-info:active,
+.k-button.k-info.active,
+.k-button.k-info:active {
+    background: var(--colorCalm30, #83b5e4);
+    color: var(--textColorCalm40, #ffffff);
+}
+
+/* Light */
+.btn.btn-light.active,
+.btn.btn-light:active,
+.k-button.k-light.active,
+.k-button.k-light:active {
+    background: var(--colorLight40, #ffffff);
+    color: var(--textColor40, #383838);
+}
+
+/* stable */
+.k-button.k-stable:focus,
+.k-button.k-stable:hover,
+.btn.btn-stable:focus,
+.btn.btn-stable:hover {
+    background: var(--colorStable50, #d9d9d9);
+    color: var(--textColorStable40, #ffffff);
+}
+
+.btn.btn-stable.active,
+.btn.btn-stable:active,
+.k-button.k-stable.active,
+.k-button.k-stable:active {
+    background: var(--colorStable30, #fafafa);
+    color: var(--textColorStable40, #ffffff);
+}
+
+/* royal */
+.k-button.k-royal:focus,
+.k-button.k-royal:hover,
+.btn.btn-royal:focus,
+.btn.btn-royal:hover {
+    background: var(--colorRoyal50, #775dcd);
+    color: var(--textColorRoyal40, #ffffff);
+}
+
+.btn.btn-royal.active,
+.btn.btn-royal:active,
+.k-button.k-royal.active,
+.k-button.k-royal:active {
+    background: var(--colorRoyal30, #ab9aef);
+    color: var(--textColorRoyal40, #ffffff);
+}
+
+
+/* Dark */
+.k-button.k-dark:focus,
+.k-button.k-dark:hover,
+.btn.btn-dark:focus,
+.btn.btn-dark:hover {
+    background: var(--colorDark50, #2a2a2a);
+    color: var(--textColorDark40, #ffffff);
+}
+
+.btn.btn-dark.active,
+.btn.btn-dark:active,
+.k-button.k-dark.active,
+.k-button.k-dark:active {
+    background: var(--colorDark30, #828282);
+    color: var(--textColorDark40, #ffffff);
+}

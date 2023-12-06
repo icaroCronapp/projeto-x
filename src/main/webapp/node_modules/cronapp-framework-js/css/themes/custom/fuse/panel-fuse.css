@@ -1,0 +1,183 @@
+.panel {
+    background: var(--colorNeutral00, #FFFFFF);
+    border: 1px solid var(--backgroundColor50, #d3d7da);
+    border-radius: var(--borderRadiusSmall, 15px);
+}
+
+.panel-group .panel {
+    border-radius: var(--borderRadiusSmall, 15px);
+}
+
+.panel-heading{
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+}
+
+.panel-group .panel-heading[aria-expanded="false"]{
+    border-radius: inherit;
+}
+
+.panel-footer{
+    border-bottom-right-radius: inherit;
+    border-bottom-left-radius: inherit;
+}
+
+/* Default */
+.panel-default .panel-heading,
+.panel-default .panel-footer {
+    color: var(--textColorDefault40, #ffffff);
+    background: var(--colorDefault40, #1e293b);
+    border-color: transparent;
+}
+
+.panel-default .panel-heading h1{
+    color: var(--textColorDefault40, #ffffff);
+}
+
+.panel-default {
+    border-color: var(--colorDefault40, #1e293b);
+}
+
+/* Primary */
+.panel-primary>.panel-heading,
+.panel-primary>.panel-footer {
+    color: var(--textColorPrimary40, #ffffff);
+    background: var(--colorPrimary40, #4f46e5);
+    border-color: transparent;
+}
+
+.panel-primary .panel-heading h1{
+    color: var(--textColorPrimary40, #ffffff);
+}
+
+.panel-primary {
+    border-color: var(--colorPrimary40, #4f46e5);
+}
+
+/* Sucess */
+.panel-success .panel-heading,
+.panel-success .panel-footer {
+    color: var(--textColorSuccess40, #ffffff);
+    background: var(--colorSuccess40, #22c55e);
+    border-color: transparent;
+}
+
+.panel-success .panel-heading h1{
+    color: var(--textColorSuccess40, #ffffff);
+}
+
+.panel-success {
+    border-color: var(--colorSuccess40, #22c55e);
+}
+
+/* Info */
+.panel-info .panel-heading,
+.panel-info .panel-footer {
+    color: var(--textColor40, #383838);
+    background: var(--colorLight40, #ffffff);
+    border-color:  var(--textColor20, #b2b2b2);
+}
+
+.panel-info .panel-heading h1{
+    color: var(--textColor40, #383838);
+}
+
+.panel-info {
+    border-color: var(--textColor20, #b2b2b2);
+}
+
+/* Warning */
+.panel-warning .panel-heading,
+.panel-warning .panel-footer {
+    color: var(--textColorWarning40, #ffffff);
+    background: var(--colorWarning40, #f59e0b);
+    border-color: transparent;
+}
+
+.panel-warning .panel-heading h1{
+    color: var(--textColorWarning40, #ffffff);
+}
+
+.panel-warning {
+    border-color: var(--colorWarning40, #f59e0b);
+}
+
+/* Danger */
+.panel-danger .panel-heading,
+.panel-danger .panel-footer {
+    color: var(--textColorDanger40, #ffffff);
+    background: var(--colorDanger40, #ef4444);
+    border-color: transparent;
+}
+
+.panel-danger .panel-heading h1{
+    color: var(--textColorDanger40, #ffffff);
+}
+
+.panel-danger {
+    border-color: var(--colorDanger40, #ef4444);
+}
+
+/* Light */
+.panel-light>.panel-heading,
+.panel-light>.panel-footer {
+    color: var(--textColorLight40, #333333);
+    background: var(--colorLight50, #dfdfdf);
+    border-color: transparent;
+}
+
+.panel-light .panel-heading h1{
+    color: var(--textColorLight40, #333333);
+}
+
+.panel-light {
+    border-color: var(--colorLight50, #dfdfdf);
+}
+
+/* Stable */
+.panel-stable .panel-heading,
+.panel-stable .panel-footer {
+    color: var(--textColorStable40, #444444);
+    background: var(--colorStable40, #f8f8f8);
+    border-color: transparent;
+}
+
+.panel-stable .panel-heading h1{
+    color: var(--textColorStable40, #444444);
+}
+
+.panel-stable {
+    border-color: var(--colorStable40, #f8f8f8);
+}
+
+/* Royal */
+.panel-royal .panel-heading,
+.panel-royal .panel-footer {
+    color: var(--textColorRoyal40, #ffffff);
+    background: var(--colorRoyal40, #9933cc);
+    border-color: transparent;
+}
+
+.panel-royal .panel-heading h1{
+    color: var(--textColorRoyal40, #ffffff);
+}
+
+.panel-royal {
+    border-color: var(--colorRoyal40, #9933cc);
+}
+
+/* Dark */
+.panel-dark .panel-heading,
+.panel-dark .panel-footer {
+    color: var(--textColorDark40, #000000);
+    background: var(--colorDark40, #adafae);
+    border-color: transparent;
+}
+
+.panel-dark .panel-heading h1{
+    color: var(--textColorDark40, #000000);
+}
+
+.panel-dark {
+    border-color: var(--colorDark40, #adafae);
+}

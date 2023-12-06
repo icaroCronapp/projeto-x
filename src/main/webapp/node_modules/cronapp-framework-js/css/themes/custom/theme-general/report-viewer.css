@@ -1,0 +1,63 @@
+/* Report Viewer */
+div[id^="crn-cron-report-viewer"]>*>div {
+    border-radius: var(--borderRadiusExtraSmall, 10px);
+}
+
+div.stiJsViewerMainPanel,
+div.stiJsViewerToolBar {
+    z-index: unset;
+}
+
+div.stiJsViewerMainPanel {
+    border: 1px solid var(--colorNeutral40, #C7C7C7);
+    border-radius: var(--borderRadiusExtraSmall, 10px);
+    overflow: hidden;
+}
+
+div.stiJsViewerToolBar {
+    background: var(--colorNeutral10, #F1F1F1);
+    padding: 2px var(--distanceMedium, 20px);
+}
+
+div.stiJsViewerToolBar>div {
+    background: transparent;
+}
+
+div.stiJsViewerToolBar .stiJsViewerToolBarTable {
+    border: 0;
+    background: transparent;
+}
+
+div.stiJsViewerToolBar .stiJsViewerToolBarTable td {
+    color: var(--colorNeutral160, #383838);
+    font-family: "Work Sans";
+}
+
+div.stiJsViewerToolBar .stiJsViewerToolBarTable td div.stiJsViewerStandartSmallButtonOver,
+div.stiJsViewerToolBar .stiJsViewerToolBarTable td div.stiJsViewerStandartSmallButtonSelected {
+    background: var(--colorNeutral30, #D5D5D5);
+    border-radius: var(--borderRadiusSmallest, 5px);
+}
+
+div.stiJsViewerToolBar .stiJsViewerToolBarTable td div table.stiJsViewerClearAllStyles {
+    margin-top: -5px;
+}
+
+div.stiJsViewerToolBar .stiJsViewerToolBarTable td:nth-child(5) div table.stiJsViewerClearAllStyles,
+div.stiJsViewerToolBar .stiJsViewerToolBarTable td:nth-child(6) div table.stiJsViewerClearAllStyles,
+div.stiJsViewerToolBar .stiJsViewerToolBarTable td:nth-child(7) div table.stiJsViewerClearAllStyles,
+div.stiJsViewerToolBar .stiJsViewerToolBarTable td:nth-child(9) div table.stiJsViewerClearAllStyles,
+div.stiJsViewerToolBar .stiJsViewerToolBarTable td:nth-child(12) div table.stiJsViewerClearAllStyles,
+div.stiJsViewerToolBar .stiJsViewerToolBarTable td:nth-child(13) div table.stiJsViewerClearAllStyles,
+div.stiJsViewerToolBar .stiJsViewerToolBarTable td:nth-child(15) div table.stiJsViewerClearAllStyles,
+div.stiJsViewerToolBar .stiJsViewerToolBarTable td:nth-child(16) div table.stiJsViewerClearAllStyles,
+div.stiJsViewerToolBar .stiJsViewerToolBarTable td:nth-child(18) div table.stiJsViewerClearAllStyles {
+    margin-top: 0;
+}
+
+div.stiJsViewerMenu {
+    border-radius: var(--borderRadiusSmallest, 5px);
+    box-shadow: none;
+    border-color: var(--colorDefault10, #d8d9e3);
+    margin-top: -3px;
+}

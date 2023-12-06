@@ -1,0 +1,29 @@
+{
+  "name": "crn-infinite-scroll",
+  "text_pt_BR": "Scroll infinito",
+  "text_en_US": "Infinite Scroll",
+  "image": "/node_modules/cronapp-framework-js/img/cron-icon/crn-infinite-scroll.svg",
+  "description": "Estrutura de paginação invisível",
+  "description_en_US": "Invisible paging structure",
+  "category": [
+      "LAYOUTS", "LISTS"
+  ],
+  "template": "<crn-infinite-scroll crn-datasource=\"\"></crn-infinite-scroll>",
+  "designTimeHTML": "<img alt=\"chart\" style=\"height: 20px;\" src=\"node_modules/cronapp-framework-js/img/cron-icon/crn-infinite-scroll.svg\"/>",
+  "designTimeSelector": "crn-infinite-scroll",
+  "properties": {
+    "id": {
+      "order": 1
+    }
+  },
+  "childrenProperties": [
+    {
+      "name": "crn-datasource",
+      "selector": "crn-infinite-scroll",
+      "displayName_pt_BR": "Fonte de dados",
+      "displayName_en_US": "Datasource",
+      "type": "pageDatasource",
+      "onDisplay": "javascript:function() { return arguments[0].replace('vars.',''); }"
+    }
+  ]
+}

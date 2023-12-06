@@ -1,0 +1,381 @@
+@import 'checkbox-color.css';
+@import 'combobox-color.css';
+@import 'option-color.css';
+@import 'designtime.css';
+@import 'font-size.css';
+
+:root {
+    --white: #ffffff;
+    --white_focus_hover: #dfdfdf;
+    --gray_border: #707070;
+    --gray: #333333;
+    --gray_focus_hover: #2d2d2d;
+    --black: #000000;
+    --black_focus_hover: #7b7b7b;
+    --blue: #0247FE;
+    --blue_focus_hover: #01278b;
+    --light-blue: #85A5FF;
+    --light-blue_focus_hover: #495a8c;
+    --light-blue_border: #3155b8;
+    --dark-blue: #00217A;
+    --dark-blue_focus_hover: #001243;
+    --dark-blue_border: #4869c7;
+    --purple: #3D01A4;
+    --purple_focus_hover: #21015a;
+    --purple_border: #4869c7;
+    --light-purple: #B285FF;
+    --light-purple_focus_hover: #61498c;
+    --light-purple_border: #6b4ba2;
+    --dark-purple: #2D007A;
+    --dark-purple_focus_hover: #190043;
+    --red: #FE2712;
+    --red_focus_hover: #8b150a;
+    --red_border: #680f06;
+    --light-red: #FE8F84;
+    --light-red_focus_hover: #8b4e48;
+    --dark-red: #7A0B00;
+    --dark-red_focus_hover: #430600;
+    --orange: #FB9B02;
+    --orange_focus_hover: #895501;
+    --light-orange: #FFD085;
+    --light-orange_focus_hover: #8c7249;
+    --light-orange_border: #492b10;
+    --dark-orange: #7A4B00;
+    --dark-orange_focus_hover: #432900;
+    --dark-orange_border: #cd9946;
+    --yellow: #FFFF33;
+    --yellow_focus_hover: #8c8c1c;
+    --yellow_border: #474432;
+    --light-yellow: #FFFF85;
+    --light-yellow_focus_hover: #8c8c49;
+    --dark-yellow: #7A7A00;
+    --dark-yellow_focus_hover: #434300;
+    --dark-yellow_border: #dddd7c;
+    --green: #66B032;
+    --green_focus_hover: #38601b;
+    --green_border: #24470c;
+    --light-green: #B7FF85;
+    --light-green_focus_hover: #648c49;
+    --dark-green: #337A00;
+    --dark-green_focus_hover: #1c4300;
+
+}
+
+.color-default {
+    color: var(--colorDefault40, #3b448e);
+}
+
+.color-default:focus,
+.color-default:hover {
+    color: var(--colorDefault60, #2b3268);
+}
+
+.text-color-default {
+    color: var(--textColorDefault40, #ffffff);
+}
+
+.color-primary {
+    color: var(--colorPrimary40, #5665be);
+}
+
+.color-primary:focus,
+.color-primary:hover {
+    color: var(--colorPrimary60, #3f4a8b);
+}
+
+.text-color-primary {
+    color: var(--textColorPrimary40, #ffffff);
+}
+
+.color-success {
+    color: var(--colorSuccess40, #33cd5f);
+}
+
+.color-success:focus,
+.color-success:hover {
+    color: var(--colorSuccess60, #259646);
+}
+
+.text-color-success {
+    color: var(--textColorSuccess40, #ffffff);
+}
+
+.color-info {
+    color: var(--colorCalm40, #11c1f3);
+}
+
+.color-info:focus,
+.color-info:hover {
+    color: var(--colorCalm60, #0c8db2);
+}
+
+.text-color-info {
+    color: var(--textColorCalm40, #ffffff);
+}
+
+.color-warning {
+    color: var(--colorWarning40, #ffc900);
+}
+
+.color-warning:focus,
+.color-warning:hover {
+    color: var(--colorWarning60, #bb9300);
+}
+
+.text-color-warning {
+    color: var(--textColorWarning40, #ffffff);
+}
+
+.color-danger {
+    color: var(--colorDanger40, #ef473a);
+}
+
+.color-danger:focus,
+.color-danger:hover {
+    color: var(--colorDanger60, #af342a);
+}
+
+.text-color-danger {
+    color: var(--textColorDanger40, #ffffff);
+}
+
+.color-light {
+    color: var(--colorLight40, #ffffff);
+}
+
+.color-light:focus,
+.color-light:hover {
+    color: var(--colorLight60, #bbbbbb);
+}
+
+.text-color-light {
+    color: var(--textColorLight40, #000000);
+}
+
+.color-stable {
+    color: var(--colorStable40, #ffc900);
+}
+
+.color-stable:focus,
+.color-stable:hover {
+    color: var(--colorStable60, #bb9300);
+}
+
+.text-color-stable {
+    color: var(--textColorStable40, #444444);
+}
+
+.color-royal {
+    color: var(--colorRoyal40, #ef473a);
+}
+
+.color-royal:focus,
+.color-royal:hover {
+    color: var(--colorRoyal60, #af342a);
+}
+
+.text-color-royal {
+    color: var(--textColorRoyal40, #ffffff);
+}
+
+.color-dark {
+    color: var(--colorDark40, #ffffff);
+}
+
+.color-dark:focus,
+.color-dark:hover {
+    color: var(--colorDark60, #bbbbbb);
+}
+
+.text-color-dark {
+    color: var(--textColorDark40, #ffffff);
+}
+
+.color-white {
+    color: var(--white, #ffffff);
+}
+
+.color-white:focus,
+.color-white:hover {
+    color: var(--white_focus_hover, #dfdfdf);
+}
+
+.color-gray {
+    color: var(--gray, #333333);
+}
+
+.color-gray:focus,
+.color-gray:hover {
+    color: var(--gray_focus_hover, #2d2d2d);
+}
+
+.color-black {
+    color: var(--black, #000000);
+}
+
+.color-black:focus,
+.color-black:hover {
+    color: var(--black_focus_hover, #7b7b7b);
+}
+
+.color-blue {
+    color: var(--blue, #0247FE);
+}
+
+.color-blue:focus,
+.color-blue:hover {
+    color: var(--blue_focus_hover, #01278b);
+}
+
+.color-light-blue {
+    color: var(--light-blue, #85A5FF);
+}
+
+.color-light-blue:focus,
+.color-light-blue:hover {
+    color: var(--light-blue_focus_hover, #495a8c);
+}
+
+.color-dark-blue {
+    color: var(--dark-blue, #00217A);
+}
+
+.color-dark-blue:focus,
+.color-dark-blue:hover {
+    color: var(--dark-blue_focus_hover, #001243);
+}
+
+.color-purple {
+    color: var(--purple, #3D01A4);
+}
+
+.color-purple:focus,
+.color-purple:hover {
+    color: var(--purple_focus_hover, #21015a);
+}
+
+.color-light-purple {
+    color: var(--light-purple, #B285FF);
+}
+
+.color-light-purple:focus,
+.color-light-purple:hover {
+    color: var(--light-purple_focus_hover, #61498c);
+}
+
+.color-dark-purple {
+    color: var(--dark-purple, #2D007A);
+}
+
+.color-dark-purple:focus,
+.color-dark-purple:hover {
+    color: var(--dark-purple_focus_hover, #190043);
+}
+
+.color-red {
+    color: var(--red, #FE2712);
+}
+
+.color-red:focus,
+.color-red:hover {
+    color: var(--red_focus_hover, #8b150a);
+}
+
+.color-light-red {
+    color: var(--light-red, #FE8F84);
+}
+
+.color-light-red:focus,
+.color-light-red:hover {
+    color: var(--light-red_focus_hover, #8b4e48);
+}
+
+.color-dark-red {
+    color: var(--dark-red, #7A0B00);
+}
+
+.color-dark-red:focus,
+.color-dark-red:hover {
+    color: var(--dark-red_focus_hover, #430600);
+}
+
+.color-orange {
+    color: var(--orange, #FB9B02);
+}
+
+.color-orange:focus,
+.color-orange:hover {
+    color: var(--orange_focus_hover, #895501);
+}
+
+.color-light-orange {
+    color: var(--light-orange, #FFD085);
+}
+
+.color-light-orange:focus,
+.color-light-orange:hover {
+    color: var(--light-orange_focus_hover, #8c7249);
+}
+
+.color-dark-orange {
+    color: var(--dark-orange, #7A4B00);
+}
+
+.color-dark-orange:focus,
+.color-dark-orange:hover {
+    color: var(--dark-orange_focus_hover, #432900);
+}
+
+.color-yellow {
+    color: var(--yellow, #FFFF33);
+}
+
+.color-yellow:focus,
+.color-yellow:hover {
+    color: var(--yellow_focus_hover, #8c8c1c);
+}
+
+.color-light-yellow {
+    color: var(--light-yellow, #FFFF85);
+}
+
+.color-light-yellow:focus,
+.color-light-yellow:hover {
+    color: var(--light-yellow_focus_hover, #8c8c49);
+}
+
+.color-dark-yellow {
+    color: var(--dark-yellow, #7A7A00);
+}
+
+.color-dark-yellow:focus,
+.color-dark-yellow:hover {
+    color: var(--dark-yellow_focus_hover, #434300);
+}
+
+.color-green {
+    color: var(--green, #66B032);
+}
+
+.color-green:focus,
+.color-green:hover {
+    color: var(--green_focus_hover, #38601b);
+}
+
+.color-light-green {
+    color: var(--light-green, #B7FF85);
+}
+
+.color-light-green:focus,
+.color-light-green:hover {
+    color: var(--light-green_focus_hover, #648c49);
+}
+
+.color-dark-green {
+    color: var(--dark-green, #337A00);
+}
+
+.color-dark-green:focus,
+.color-dark-green:hover {
+    color: var(--dark-green_focus_hover, #1c4300);
+}

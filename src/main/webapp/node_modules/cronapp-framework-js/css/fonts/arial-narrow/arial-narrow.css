@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "Arial Narrow";
+    font-style: normal;
+    font-weight: 400;
+    src: url('arial-narrow.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Arial Narrow";
+    font-style: italic;
+    font-weight: 400;
+    src: url('arial-narrow-italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Arial Narrow";
+    font-style: normal;
+    font-weight: 600, 500;
+    src: url('arial-narrow-bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Arial Narrow";
+    font-style: italic;
+    font-weight: 600, 500;
+    src: url('arial-narrow-bold-italic.ttf') format('truetype');
+}

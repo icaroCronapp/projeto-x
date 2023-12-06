@@ -1,0 +1,85 @@
+.panel {
+    background: var(--backgroundColor40, #ffffff);
+    box-shadow: none;
+    border: 1px solid #000;
+}
+
+.panel-heading {
+    border-bottom: 1px solid #000;
+}
+
+.panel-footer {
+    color: var(--textColorDefault40, #ffffff);
+    background: var(--colorDefault40, #3a3f44);
+    border-top: 1px solid #000;
+}
+
+/* Default */
+.panel-default .panel-heading {
+    color: var(--textColorPrimary40, #ffffff);
+    background: var(--colorPrimary40, #7a8288);
+    border-color: #000;
+}
+
+/* Primary */
+.panel-primary .panel-heading {
+    color: var(--textColorDefault40, #ffffff);
+    background: var(--colorDefault40, #3a3f44);
+    border-color: #000;
+}
+
+/* Success */
+.panel-success .panel-heading {
+    color: var(--textColorSuccess40, #ffffff);
+    background: var(--colorSuccess40, #73a839);
+    border-color: #000;
+}
+
+/* Info */
+.panel-info .panel-heading {
+    color: var(--textColorCalm40, #ffffff);
+    background: var(--colorCalm40, #5bc0de);
+    border-color: #000;
+}
+
+/* Warning */
+.panel-warning .panel-heading {
+    color: var(--textColorWarning40, #ffffff);
+    background: var(--colorWarning40, #f89406);
+    border-color: #000;
+}
+
+/* Danger */
+.panel-danger .panel-heading {
+    color: var(--textColorDanger40, #ffffff);
+    background: var(--colorDanger40, #ee5f5b);
+    border-color: #000;
+}
+
+/* Light */
+.panel-light .panel-heading {
+    color: var(--textColorLight40, #444444);
+    background: var(--colorLight40, #e9ecef);
+    border-color: #000;
+}
+
+/* Stable */
+.panel-stable>.panel-heading {
+    color: var(--textColorStable40, #444444);
+    background: var(--colorStable40, #f8f8f8);
+    border-color: #000;
+}
+
+/* Royal */
+.panel-royal>.panel-heading {
+    color: var(--textColorRoyal40, #ffffff);
+    background: var(--colorRoyal40, #886aea);
+    border-color: #000;
+}
+
+/* Dark */
+.panel-dark>.panel-heading {
+    color: var(--textColorDark40, #ffffff);
+    background: var(--colorDark30, #272b30);
+    border-color: #000;
+}

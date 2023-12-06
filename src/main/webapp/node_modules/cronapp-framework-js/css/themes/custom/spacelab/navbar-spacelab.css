@@ -1,0 +1,111 @@
+.navbar img[src="node_modules/cronapp-framework-js/dist/img/img-user.svg"] {
+    background: var(--textColor40, #666666);
+}
+
+.crn-navigator-horizontal .navbar {
+    background: linear-gradient(var(--colorLight10, #f2f2f2), var(--colorLight40, #eeeeee) 50%, var(--colorLight40, #aeaeae));
+    border-bottom: 1px solid var(--colorLight50);
+}
+
+.navbar-inverse {
+    background: linear-gradient(var(--colorPrimary10, #f2f2f2), var(--colorPrimary40, #eeeeee) 50%, var(--colorPrimary40, #aeaeae));
+    border: 1px solid #345578;
+}
+
+.navbar-inverse .badge {
+    background: #fff;
+    color: #446e9b;
+}
+
+
+
+#main-nav-bar .navbar-default .container-fluid #navbar .navbar-nav li.open a span,
+#main-nav-bar .navbar-default .container-fluid #navbar2 .navbar-nav li.open a span,
+#main-nav-bar .navbar-default .container-fluid #navbar .navbar-nav li a:hover span,
+#main-nav-bar .navbar-default .container-fluid #navbar2 .navbar-nav li a:hover span,
+#main-nav-bar .navbar-default .container-fluid #navbar .navbar-nav li .dropdown-menu li a:hover span,
+#main-nav-bar .navbar-default .container-fluid #navbar2 .navbar-nav li .dropdown-menu li a:hover span,
+#main-nav-bar .navbar-default .container-fluid #navbar .navbar-nav li a:hover,
+#main-nav-bar .navbar-default .container-fluid #navbar2 .navbar-nav li a:hover,
+#main-nav-bar .navbar-default .container-fluid #navbar .navbar-nav li .dropdown-menu li a:hover,
+#main-nav-bar .navbar-default .container-fluid #navbar2 .navbar-nav li .dropdown-menu li a:hover,
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a i,
+.navbar-default .navbar-nav>.open>span,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover {
+    color: var(--colorCalm40, #3399f3);
+}
+
+
+#main-nav-bar .navbar-default .container-fluid #navbar .navbar-nav li .dropdown-menu a span,
+#main-nav-bar .navbar-default .container-fluid #navbar2 .navbar-nav li .dropdown-menu a span,
+#main-nav-bar .navbar-default .container-fluid #navbar .navbar-nav li .dropdown-menu a,
+#main-nav-bar .navbar-default .container-fluid #navbar2 .navbar-nav li .dropdown-menu a {
+    color: var(--textColor40, #666666);
+    font-size: var(--textNormalSize, 14px);
+}
+
+#main-nav-bar .navbar-default .container-fluid #navbar .navbar-nav li .dropdown-menu li a:hover,
+#main-nav-bar .navbar-default .container-fluid #navbar2 .navbar-nav li .dropdown-menu li a:hover {
+    color: var(--textColorPrimary40, #ffffff);
+    text-decoration: none;
+    background: var(--colorPrimary40, #446e9b);
+}
+
+#main-nav-bar .navbar-default .container-fluid #navbar .navbar-nav li .dropdown-menu li a:hover span,
+#main-nav-bar .navbar-default .container-fluid #navbar2 .navbar-nav li .dropdown-menu li a:hover span,
+#main-nav-bar .navbar-default .container-fluid #navbar .navbar-nav li .dropdown-menu li a:hover i,
+#main-nav-bar .navbar-default .container-fluid #navbar2 .navbar-nav li .dropdown-menu li a:hover i {
+    color: var(--textColorPrimary40, #ffffff);
+}
+
+/* Vertical */
+.crn-navigator-vertical {
+    background: linear-gradient(var(--colorLight10, #f2f2f2), var(--colorLight40, #eeeeee) 50%, var(--colorLight40, #aeaeae));
+    border-right: 1px solid var(--colorLight50);
+}
+
+.crn-navigator-vertical .navbar {
+    background: transparent;
+}
+
+/* Menu mobile */
+.navbar-default .navbar-toggle {
+    border-color: var(--colorDefault10, #222320);
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background: var(--colorDefault20, #d8d8d8);
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background: var(--colorDefault10, #2d2e2a);
+    border-color: transparent;
+}
+
+@media (max-width: 767px) {
+
+    #main-nav-bar .navbar-default .container-fluid #navbar .navbar-nav .open a:hover,
+    #main-nav-bar .navbar-default .container-fluid #navbar2 .navbar-nav .open a:hover,
+    .navbar-default .navbar-nav>.open>a,
+    .navbar-default .navbar-nav>.open>a:focus,
+    .navbar-default .navbar-nav>.open>a:hover,
+    #main-nav-bar .navbar-default .container-fluid #navbar .navbar-nav .open .dropdown-menu li a:hover,
+    #main-nav-bar .navbar-default .container-fluid #navbar2 .navbar-nav .open .dropdown-menu li a:hover {
+        color: var(--colorCalm40, #3399f3);
+        background: transparent;
+    }
+
+    #main-nav-bar .navbar-default .container-fluid #navbar .navbar-nav li.open>a,
+    #main-nav-bar .navbar-default .container-fluid #navbar2 .navbar-nav li.open>a {
+        color: var(--colorCalm40, #3399f3);
+    }
+
+}

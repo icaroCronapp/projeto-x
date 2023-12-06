@@ -1,0 +1,115 @@
+.navbar img[src="node_modules/cronapp-framework-js/dist/img/img-user.svg"] {
+    background: var(--textColor40, #666666);
+}
+
+.crn-navigator-horizontal .navbar {
+    background: var(--backgroundColor40, #ffffff);
+    border: none;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 30%);
+}
+
+.navbar-inverse {
+    background: var(--colorPrimary40, #2196f3);
+    border: none
+}
+
+.navbar-inverse .badge {
+    background: #fff;
+    color: var(--colorPrimary40, #2196f3);
+}
+
+#main-nav-bar .navbar-default .container-fluid #navbar .navbar-nav li a,
+#main-nav-bar .navbar-default .container-fluid #navbar2 .navbar-nav li a,
+#main-nav-bar .navbar-default .container-fluid #navbar .navbar-nav li a span,
+#main-nav-bar .navbar-default .container-fluid #navbar2 .navbar-nav li a span {
+    color: var(--textColor40, #666666);
+    font-size: var(--textNormalSize, 14px);
+}
+
+#main-nav-bar.crn-navigator-horizontal .navbar-default .container-fluid #navbar .navbar-nav li .dropdown-menu a,
+#main-nav-bar.crn-navigator-horizontal .navbar-default .container-fluid #navbar2 .navbar-nav li .dropdown-menu a {
+    color: var(--textColor40, #666666);
+}
+
+#main-nav-bar .navbar-default .container-fluid #navbar .navbar-nav li.open a span,
+#main-nav-bar .navbar-default .container-fluid #navbar2 .navbar-nav li.open a span,
+#main-nav-bar .navbar-default .container-fluid #navbar .navbar-nav li a:hover span,
+#main-nav-bar .navbar-default .container-fluid #navbar2 .navbar-nav li a:hover span,
+#main-nav-bar .navbar-default .container-fluid #navbar .navbar-nav li a:hover,
+#main-nav-bar .navbar-default .container-fluid #navbar2 .navbar-nav li a:hover,
+#main-nav-bar .navbar-default .container-fluid #navbar .navbar-nav li .dropdown-menu li a:hover,
+#main-nav-bar .navbar-default .container-fluid #navbar2 .navbar-nav li .dropdown-menu li a:hover,
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a span,
+.navbar-default .navbar-nav>.open>a i,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover {
+    color: var(--textColor70, #383838);
+}
+
+#main-nav-bar .navbar-default .container-fluid #navbar .navbar-nav li .dropdown-menu li a:hover span,
+#main-nav-bar .navbar-default .container-fluid #navbar2 .navbar-nav li .dropdown-menu li a:hover span,
+#main-nav-bar .navbar-default .container-fluid #navbar .navbar-nav li .dropdown-menu li a:hover,
+#main-nav-bar .navbar-default .container-fluid #navbar2 .navbar-nav li .dropdown-menu li a:hover {
+    color: var(--textColor70, #383838);
+    background: var(--backgroundColor50, #dfdfdf);
+}
+
+.dropdown-menu {
+    color: var(--textColor40, #666666);
+    background: var(--backgroundColor40, #ffffff);
+}
+
+/* Vertical */
+.crn-navigator-vertical {
+    background: var(--backgroundColor40, #ffffff);
+    box-shadow: 1px 0 2px var(--backgroundColor50, #dfdfdf);
+}
+
+.crn-navigator-vertical .navbar {
+    background: var(--backgroundColor40, #ffffff);
+}
+
+#main-nav-bar .navbar-default .container-fluid #navbar .navbar-nav li .dropdown-menu a,
+#main-nav-bar .navbar-default .container-fluid #navbar2 .navbar-nav li .dropdown-menu a {
+    color: var(--textColor40, #666666);
+}
+
+/* Menu mobile */
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background: var(--colorDefault70, #838383);
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background: var(--colorDefault50, #d2d2d2);
+    border-color: transparent;
+}
+
+@media (max-width: 767px) {
+    #main-nav-bar .navbar-default .container-fluid #navbar .navbar-nav li.open .dropdown-menu li a:hover,
+    #main-nav-bar .navbar-default .container-fluid #navbar2 .navbar-nav li.open .dropdown-menu li a:hover {
+        background: transparent;
+        color: var(--textColor70, #383838);
+    }
+}
+
+/* Collapsible menu */
+#iconCollapsibleMenu {
+    color: var(--textColor40, #666666);
+}
+
+label.labelCollapsibleMenu {
+    background: var(--colorDefault40, #ffffff);
+    height: var(--textBigSize, 34px);
+    width: var(--textBigSize, 34px);
+}

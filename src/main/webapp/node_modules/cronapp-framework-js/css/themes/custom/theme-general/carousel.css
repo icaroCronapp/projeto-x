@@ -1,0 +1,35 @@
+.carousel-caption {
+    right: 9%;
+    left: 9%;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+    width: 8%;
+}
+
+.carousel-control {
+    color: var(--textColorDefault40, #ffffff);
+}
+
+.carousel-control.right {
+    background: linear-gradient(to right, transparent 0, var(--backgroundColor70, #848484) 100%);
+}
+
+.carousel-control.left {
+    background: linear-gradient(to right, var(--backgroundColor70, #848484) 0, transparent 100%);
+}
+
+.carousel .carousel-caption h1,
+.carousel .carousel-caption h2 {
+    text-shadow: none;
+    color: var(--textColorDefault40, #ffffff);
+}
+
+.carousel-indicators .active {
+    background: var(--textColorDefault40, #ffffff);
+}
+
+.carousel-indicators li {
+    border-color: var(--textColorDefault40, #ffffff);
+}

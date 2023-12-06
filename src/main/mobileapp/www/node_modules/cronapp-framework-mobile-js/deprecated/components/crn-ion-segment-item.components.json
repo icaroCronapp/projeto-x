@@ -1,0 +1,65 @@
+{
+    "name": "crn-ion-segment-item",
+    "text_pt_BR": "Item da abas",
+    "text_en_US": "Tabs item",
+    "image": "/node_modules/cronapp-framework-mobile-js/img/cron-icon/crn-tabs.svg",
+    "pallete": false,
+    "templateURL": "src/main/mobileapp/www/node_modules/cronapp-framework-mobile-js/dist/components/templates/crn-ion-segment-item.template.html",
+    "wrapper": false,
+    "forcedGroup": true,
+    "properties": {
+        "class": {
+            "order": 9999
+        },
+        "id": {
+            "order": 1
+        }
+    },
+    "childrenProperties": [
+        {
+            "name": "class",
+            "selector": "i",
+            "displayName_pt_BR": "Ícone",
+            "displayName_en_US": "Icon",
+            "type": "icon",
+            "order": 1
+        },
+        {
+            "name": "content",
+            "displayName_pt_BR": "Título",
+            "displayName_en_US": "Title",
+            "order": 4,
+            "selector": "span"
+        },
+        {
+            "name": "ng-init",
+            "selector": "button",
+            "type": "event"
+        },
+        {
+            "name": "ng-click",
+            "selector": "button",
+            "type": "event"
+        },
+        {
+            "name": "ng-dblclick",
+            "selector": "button",
+            "type": "event"
+        },
+        {
+            "name": "ng-mouseenter",
+            "selector": "button",
+            "type": "event"
+        },
+        {
+            "name": "ng-mouseleave",
+            "selector": "button",
+            "type": "event"
+        },
+        {
+            "name": "ng-mousemove",
+            "selector": "button",
+            "type": "event"
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+{
+  "name": "crn-component",
+  "designTimeDynamic": true,
+  "text_pt_BR": "Fragmento",
+  "text_en_US": "Fragment",
+  "onDoubleClick": "openResource:origin",
+  "description": "Componente visual que pode ser utilizado dentro de uma página",
+  "description_en_US": "Visual component that can be used within a page",
+  "image": "/node_modules/cronapp-framework-js/img/cron-icon/crn-component.svg",
+  "forcedGroup": true,
+  "category": [
+    "LAYOUTS"
+  ],
+  "designTimeHTML": "<img src=\"node_modules/cronapp-framework-js/img/web.png\" style=\"height: 80px; width: 80px; margin: auto; display: table-cell; vertical-align: middle; text-align: center;\">",
+  "designTimeSelector": "crn-component",
+  "template": "<crn-component origin=\"\" params=\"\"></crn-component>",
+  "properties": {
+    "class": {
+      "order": 9999
+    },
+    "id": {
+      "order": 1
+    }
+  },
+  "childrenProperties": [
+    {
+      "name": "origin",
+      "type": "projectResource",
+      "displayName_pt_BR": "Fragmento",
+      "displayName_en_US": "Fragment",
+      "resourceType": "text/html",
+      "extraOptions": {
+        "underComponentsFolder": true,
+        "returnAction" : [ 
+          { 
+            "regExp" : "screen-params=\"(.*?)\"",
+            "selector" : "crn-component[params]",
+            "property" : "params"
+          }
+        ]
+      },
+      "selector": "crn-component[origin]",
+      "mandatory": true,
+      "removable": false,
+      "underViewsFolder" : true,
+      "webPath" : true,
+      "order": 1
+    },
+    {
+      "name": "params",
+      "displayName_pt_BR": "Parametros",
+      "displayName_en_US": "Parameters",
+      "selector": "crn-component[params]",
+      "removable": false,
+      "order": 3
+    }
+  ]
+}

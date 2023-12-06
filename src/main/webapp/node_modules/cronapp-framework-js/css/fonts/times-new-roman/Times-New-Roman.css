@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "Times New Roman";
+    font-style: normal;
+    font-weight: 400;
+    src: url('times-new-roman.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Times New Roman";
+    font-style: italic;
+    font-weight: 400;
+    src: url('times-new-roman-italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Times New Roman";
+    font-style: normal;
+    font-weight: 700;
+    src: url('times-new-romanbold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Times New Roman";
+    font-style: italic;
+    font-weight: 700;
+    src: url('times-new-roman-bold-italic.ttf') format('truetype');
+}

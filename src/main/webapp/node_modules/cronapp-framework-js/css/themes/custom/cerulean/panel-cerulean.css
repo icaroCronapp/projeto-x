@@ -1,0 +1,120 @@
+.panel {
+    background: var(--backgroundColor40, #ffffff);
+    box-shadow: none;
+}
+
+.panel-footer {
+    color: var(--textColorDefault40, #444444);
+    background: var(--colorDefault40, #fafafa);
+    border: 0;
+}
+
+/* Default */
+.panel-default .panel-heading {
+    color: var(--textColorPrimary40, #ffffff);
+    background: var(--colorPrimary40, #2fa4e7);
+    border-color: var(--colorPrimary40, #2fa4e7);
+}
+
+.panel-default {
+    border-color: var(--colorPrimary40, #2fa4e7);
+}
+
+/* Primary */
+.panel-primary>.panel-heading {
+    color: var(--textColorDefault40, #444444);
+    background: var(--colorDefault40, #f5f5f5);
+    border-color: var(--colorDefault40, #f5f5f5);
+}
+
+.panel-primary {
+    border-color: var(--colorDefault40, #f5f5f5);
+}
+
+/* Sucess */
+.panel-success>.panel-heading {
+    color: var(--textColorSuccess40, #ffffff);
+    background: var(--colorSuccess40, #73a839);
+    border-color: var(--colorSuccess40, #73a839);
+}
+
+.panel-success {
+    border-color: var(--colorSuccess40, #73a839);
+}
+
+/* Info */
+.panel-info>.panel-heading {
+    color: var(--textColorCalm40, #ffffff);
+    background: var(--colorCalm40, #033c73);
+    border-color: var(--colorCalm40, #033c73);
+}
+
+.panel-info {
+    border-color: var(--colorCalm40, #033c73);
+}
+
+/* Warning */
+.panel-warning>.panel-heading {
+    color: var(--textColorWarning40, #ffffff);
+    background: var(--colorWarning40, #dd5600);
+    border-color: var(--colorWarning40, #dd5600);
+}
+
+.panel-warning {
+    border-color: var(--colorWarning40, #dd5600);
+}
+
+/* Danger */
+.panel-danger>.panel-heading {
+    color: var(--textColorDanger40, #ffffff);
+    background: var(--colorDanger40, #c71c22);
+    border-color: var(--colorDanger40, #c71c22);
+}
+
+.panel-danger {
+    border-color: var(--colorDanger40, #c71c22);
+}
+
+/* Light */
+.panel-light>.panel-heading {
+    color: var(--textColorLight40, #444444);
+    background: var(--colorLight50, #dfdfdf);
+    border-color: var(--colorLight50, #dfdfdf);
+}
+
+.panel-light {
+    border-color: var(--colorLight50, #dfdfdf);
+}
+
+/* stable */
+.panel-stable>.panel-heading {
+    color: var(--textColorStable40, #ffffff);
+    background: var(--colorStable50, #d9d9d9);
+    border-color: var(--colorStable50, #d9d9d9);
+}
+
+.panel-stable {
+    border-color: var(--colorStable50, #d9d9d9);
+}
+
+/* royal */
+.panel-royal>.panel-heading {
+    color: var(--textColorRoyal40, #ffffff);
+    background: var(--colorRoyal40, #886aea);
+    border-color: var(--colorRoyal40, #886aea);
+}
+
+.panel-royal {
+    border-color: var(--colorRoyal40, #886aea);
+}
+
+/* dark */
+.panel-dark>.panel-heading {
+    color: var(--textColorDark40, #ffffff);
+    background: var(--colorDark40, #444444);
+    border-color: var(--colorDark40, #444444);
+}
+
+.panel-dark {
+    border-color: var(--colorDark40, #444444);
+}

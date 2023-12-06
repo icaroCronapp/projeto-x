@@ -1,0 +1,128 @@
+.form-control {
+    width: 100%;
+    height: 38px;
+    padding: 8px 12px;
+    font-size: var(--textNormalSize, 14px);
+    line-height: 1.42857143;
+    color: var(--textColor40, #393939);
+    background: var(--backgroundColor40, #f1f1f1);
+    border: 1px solid #cccccc;
+    border-radius: var(--borderRadiusSmallest, 4px);
+    -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+input::placeholder,
+.k-input::placeholder,
+.form-control::placeholder {
+    color: var(--textColor30, #858585);
+}
+
+.crn-textinputbutton .form-group {
+    margin-bottom: 0px;
+}
+
+.k-multiselect-wrap.k-state-hover,
+.k-state-hover>.k-multiselect-wrap,
+.k-multiselect,
+.k-autocomplete.k-state-focused,
+.k-dropdown-wrap.k-state-focused,
+.k-multiselect.k-header.k-state-focused,
+.k-numeric-wrap.k-state-focused,
+.k-picker-wrap.k-state-focused,
+.k-textbox:focus,
+.k-input,
+.k-multiselect-wrap,
+.k-textbox>input,
+input.k-textbox,
+input.k-textbox:hover,
+textarea.k-textbox,
+textarea.k-textbox:hover,
+.k-dropdown .k-state-focused,
+.k-filebrowser-dropzone,
+.k-list>.k-state-hover,
+.k-listbox .k-item:hover:not(.k-state-disabled),
+.k-mobile-list .k-edit-label.k-check:active,
+.k-mobile-list .k-item>.k-label:active,
+.k-mobile-list .k-item>.k-link:active,
+.k-mobile-list .k-recur-view .k-check:active,
+.k-pager-wrap .k-link:hover,
+.k-scheduler .k-scheduler-toolbar ul li.k-state-hover,
+.k-splitbar-horizontal-hover:hover,
+.k-splitbar-vertical-hover:hover,
+.k-state-hover,
+.k-state-hover:hover {
+    background: transparent;
+    color: var(--textColor40, #393939);
+}
+
+.k-autocomplete.k-state-focused,
+.k-dropdown-wrap.k-state-focused,
+.k-multiselect.k-header.k-state-focused,
+.k-numeric-wrap.k-state-focused,
+.k-picker-wrap.k-state-focused,
+.k-textbox:focus,
+.k-multiselect-wrap.k-state-focused,
+.k-state-focused>.k-multiselect-wrap,
+.cardinput:focus-within {
+    box-shadow: none;
+}
+
+.k-autocomplete.k-state-focused,
+.k-dropdown-wrap.k-state-focused,
+.k-multiselect.k-header.k-state-focused,
+.k-numeric-wrap.k-state-focused,
+.k-picker-wrap.k-state-focused,
+.k-textbox:focus {
+    border-color: var(--textColor40, #393939);
+}
+
+.k-fieldselector .k-list .k-item,
+.k-item.k-drag-clue,
+.k-list-optionlabel,
+.k-listbox .k-item,
+.k-popup>.k-group-header,
+.k-popup>.k-virtual-wrap>.k-group-header {
+    height: calc(var(--textNormalSize, 14px) * 2);
+    min-height: calc(var(--textNormalSize, 14px) * 2);
+}
+
+.k-nodata{
+    font-family: var(--fontFamily, "Roboto", "Helvetica Neue", "Arial", sans-serif);
+    font-size: var(--textNormalSize, 14px);
+    color: var(--textColor40, #393939);
+}
+
+.k-list>.k-state-selected,
+.k-state-selected {
+    background: transparent;
+}
+
+.k-state-default>.k-select {
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+
+input.k-textbox.k-invalid,
+input.k-textbox:hover.k-invalid,
+textarea.k-textbox.k-invalid,
+textarea.k-textbox:hover.k-invalid,
+.k-autocomplete.k-invalid:hover,
+.k-dropdown-wrap.k-invalid:hover
+.k-numeric-wrap.k-invalid:hover
+.k-picker-wrap.k-invalid:hover
+.k-textbox.k-invalid:hover
+.k-invalid:hover,
+.k-autocomplete.k-invalid,
+.k-dropdown-wrap.k-invalid,
+.k-numeric-wrap.k-invalid,
+.k-picker-wrap.k-invalid,
+.k-textbox.k-invalid,
+.k-invalid {
+    border-color: var(--colorDanger40, #ce3a36);
+}

@@ -1,0 +1,92 @@
+{
+  "name": "crn-radioOption",
+  "pallete": false,
+  "text_pt_BR": "Item de opção",
+  "text_en_US": "Radio Item",
+  "properties": {
+    "ng-checked": {
+      "removable": false,
+      "displayName_pt_BR": "Selecionado",
+      "displayName_en_US": "selected",
+      "type": "list",
+      "options": [
+        {
+          "key": "true",
+          "value_pt_BR": "Sim",
+          "value_en_US": "Yes"
+        },
+        {
+          "key": "false",
+          "value_pt_BR": "Não",
+          "value_en_US": "No"
+        }
+      ],
+      "selector": "input[ng-checked]",
+      "childrenProperty": true,
+      "order": 2,
+      "twinProperty": "checked",
+      "twinPropertySetWithProp": true,
+      "twinPropertyDeleteOnValue": "false",
+      "toggleOthersCompOnValue": "true"
+    }
+  },
+  "childrenProperties": [
+    {
+      "name": "value",
+      "selector": "input[value]",
+      "displayName_pt_BR": "Valor do campo",
+      "displayName_en_US": "Field value",
+      "type": "text",
+      "order": 1
+    },
+    {
+      "name": "content",
+      "selector": "label",
+      "displayName_pt_BR": "Legenda",
+      "displayName_en_US": "Subtitle",
+      "type": "content",
+      "order": 2
+    },
+    {
+      "name": "ng-disabled",
+      "selector": "input",
+      "displayName_en_US": "Disabled",
+      "displayName_pt_BR": "Desabilitado",
+      "type": "logic",
+      "order": 3
+    },
+    {
+      "name": "name",
+      "selector": "input[name]",
+      "displayName_en_US": "Group Name",
+      "displayName_pt_BR": "Nome do Grupo",
+      "type": "text",
+      "order": 4
+    },
+    {
+      "name": "ng-click",
+      "selector": "label[value]",
+      "type": "event"
+    },
+    {
+      "name": "ng-dblclick",
+      "selector": "label[value]",
+      "type": "event"
+    },
+    {
+      "name": "ng-mouseenter",
+      "selector": "label[value]",
+      "type": "event"
+    },
+    {
+      "name": "ng-mouseleave",
+      "selector": "label[value]",
+      "type": "event"
+    },
+    {
+      "name": "ng-mousemove",
+      "selector": "label[value]",
+      "type": "event"
+    }
+  ]
+}
